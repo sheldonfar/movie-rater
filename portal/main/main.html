@@ -1,10 +1,36 @@
-<div class="container">
-  <div class="row">
-      <div class="col-md-4">
-          <div class="panel panel-default"></div>
-      </div>
-      <div class="col-md-4">
-          <div class="panel panel-default"></div>
-      </div>
-  </div>
+<div class="container main-wrapper">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="movie-container">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img ng-src="{{moviesOne[iteratorOne].poster}}" width="300" height="350">
+                        </div>
+                        <div class="panel-footer">
+                            <button class="btn btn-success" ng-click="onYes(moviesOne, iteratorOne); increment(1)">Yay</button>
+                            <button class="btn btn-danger" ng-click="onNo(moviesOne, iteratorOne); increment(1)">Nay</button>
+                            <button class="btn btn-warning" ng-click="increment(1)">Skip</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="movie-container">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img ng-src="{{moviesTwo[iteratorTwo].poster}}" width="300" height="350">
+                        </div>
+                        <div class="panel-footer">
+                            <button class="btn btn-success" ng-click="onYes(moviesTwo, iteratorTwo); increment(2)">Yay</button>
+                            <button class="btn btn-danger" ng-click="onNo(moviesTwo, iteratorTwo); increment(2)">Nay</button>
+                            <button class="btn btn-warning" ng-click="increment(2)">Skip</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

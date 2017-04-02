@@ -1,5 +1,14 @@
 body {
-    background: #eee !important;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    height: 100%;
+    margin: 0;
+    background: #eee;
+}
+
+.site-wrapper {
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
@@ -41,4 +50,15 @@ input[type="password"] {
     margin-bottom: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+
+.movie-container {
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    margin-top: 100px;
+    vertical-align: middle;
 }

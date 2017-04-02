@@ -11,6 +11,6 @@ angular.module('myApp.login', ['ngRoute'])
 
     .controller('LoginCtrl', ['$scope', '$location', function ($scope, $location) {
         $scope.login = function () {
-            $location.path('main');
+            $location.path('/main/' + $scope.username);
         }
     }]);

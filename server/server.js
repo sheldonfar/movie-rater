@@ -2,9 +2,17 @@ const express = require('express'),
     raccoon = require('raccoon'),
     path = require('path'),
     starter = require('./starter.js'),
+    bodyParser = require('body-parser'),
     app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 app.get('/login', function (req, res) {
     starter.buildLoginObject(req.query[':username'], function (object) {
@@ -12,15 +20,17 @@ app.get('/login', function (req, res) {
     });
 });
 
-app.get('/newRating', function (req, res) {
+app.post('/newRating', function (req, res) {
     let replyObj = {};
 
-    let raccoonFeeling = req.query.movie.like === 'liked' ? raccoon.liked : raccoon.disliked;
+    let raccoonFeeling = req.body.like === true ? raccoon.liked : raccoon.disliked;
 
-    raccoonFeeling(req.query[':userId'], req.query.movie.id).then(() => {
-        raccoon.stat.recommendFor(req.query[':userId'], 15).then((recs) => {
+    console.warn("NEW RATING " + JSON.stringify(req.body, null, 2));
+
+    raccoonFeeling(req.body.username, req.body.movieId).then(() => {
+        raccoon.stat.recommendFor(req.body.username, 15).then((recs) => {
             console.log('recs', recs);
-            raccoon.stat.mostSimilarUsers(req.query[':userId']).then((simUsers) => {
+            raccoon.stat.mostSimilarUsers(req.body.username).then((simUsers) => {
                 raccoon.stat.bestRatedWithScores(9).then((bestRated) => {
                     replyObj = {
                         recommendations: recs,
@@ -34,7 +44,7 @@ app.get('/newRating', function (req, res) {
     });
 });
 
-app.get('/movieLikes', function (req, res) {
+app.get('/likes', function (req, res) {
     let replyObj = {};
     raccoon.stat.likedBy(req.query[':movieId']).then((likes) => {
         raccoon.stat.dislikedBy(req.query[':movieId']).then((dislikes) => {

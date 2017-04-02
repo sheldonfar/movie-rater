@@ -1,15 +1,16 @@
-
 const redis = require('redis'),
-  config = require('./config'),
-  bluebird = require('bluebird');
+    config = require('./config'),
+    bluebird = require('bluebird');
 
 bluebird.promisifyAll(redis.RedisClient.prototype);
 
 redisClient = redis.createClient(config.redisPort, config.redisUrl);
-if (config.redisAuth){
-  this.redisCli.auth(config.redisAuth, function (err) {
-   if (err) { throw err; }
-  });
+if (config.redisAuth) {
+    this.redisCli.auth(config.redisAuth, function (err) {
+        if (err) {
+            throw err;
+        }
+    });
 }
 
 module.exports = exports = redisClient;
