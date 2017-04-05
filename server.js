@@ -57,12 +57,11 @@ app.get('/likes', function (req, res) {
     });
 });
 
-var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
-var port = process.env.OPENSHIFT_NODEJS_PORT || 8888;
+var ipaddress = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var server = app.listen(port, ipaddress, function () {
 
     var host = server.address().address;
 
     console.log((new Date()) + '  app listening at http://%s:%s', host, port)
-
 });

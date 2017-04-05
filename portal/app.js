@@ -1,4 +1,4 @@
-const serverUrl = 'http://localhost:8888/';
+const serverUrl = 'http://localhost:8080/';
 var App = {};
 
 App.helpers = {

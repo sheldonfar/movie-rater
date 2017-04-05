@@ -6,11 +6,11 @@ const sequelize = new Sequelize(config.postgresDbName, config.postgresUsername, 
     dialect: 'postgres'
 });
 
-let User = sequelize.define('user', {
+var User = sequelize.define('user', {
     name: Sequelize.STRING
 });
 
-let Movie = sequelize.define('movie', {
+var Movie = sequelize.define('movie', {
     title: Sequelize.STRING,
     year: Sequelize.STRING,
     rated: Sequelize.STRING,
@@ -23,8 +23,8 @@ let Movie = sequelize.define('movie', {
 });
 
 module.exports = exports = {
-  sequelize,
-  User,
-  Movie
+  sequelize: sequelize,
+  User: User,
+  Movie: Movie
 };
 

@@ -28,7 +28,7 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'angular-flippy'])
             window.console.log("No connection");
         });
 
-        let sendRating = function (isLiked, movieId) {
+        var sendRating = function (isLiked, movieId) {
             //console.warn("SEND ", $scope.username, isLiked, movieId);
             $http({
                 method: 'POST',
@@ -46,7 +46,7 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'angular-flippy'])
         };
 
         $scope.onYes = function (iterator) {
-            let movie = iterator === 1 ? $scope.moviesOne[$scope.iteratorOne] : $scope.moviesTwo[$scope.iteratorTwo];
+            var movie = iterator === 1 ? $scope.moviesOne[$scope.iteratorOne] : $scope.moviesTwo[$scope.iteratorTwo];
             sendRating(true, movie.id);
 
             if ($scope.moviesOne.length > $scope.iteratorOne + 1 && $scope.moviesTwo.length > $scope.iteratorTwo + 1) {
