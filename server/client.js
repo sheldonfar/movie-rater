@@ -16,7 +16,10 @@ let Movie = sequelize.define('movie', {
     rated: Sequelize.STRING,
     genre: Sequelize.STRING,
     country: Sequelize.STRING,
-    poster: Sequelize.STRING
+    poster: Sequelize.STRING,
+    runtime: Sequelize.STRING,
+    plot: Sequelize.STRING,
+    ratings: Sequelize.JSON
 });
 
 module.exports = exports = {

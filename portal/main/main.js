@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.main', ['ngRoute', 'slick'])
+angular.module('myApp.main', ['ngRoute', 'slick', 'angular-flippy'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/main/:username', {
@@ -17,7 +17,8 @@ angular.module('myApp.main', ['ngRoute', 'slick'])
             url: config.serverUrls.login,
             data: {username: $scope.username}
         }).success(function (data) {
-            $scope.movies = data.allMovies;
+            console.warn("DATA ", data);
+            $scope.movies = App.helpers.shuffle(data.allMovies);
             $scope.iteratorOne = 0;
             $scope.iteratorTwo = 0;
 
@@ -28,7 +29,7 @@ angular.module('myApp.main', ['ngRoute', 'slick'])
         });
 
         let sendRating = function (isLiked, movieId) {
-            console.warn("SEND ", $scope.username, isLiked, movieId);
+            //console.warn("SEND ", $scope.username, isLiked, movieId);
             $http({
                 method: 'POST',
                 url: config.serverUrls.newRating,
@@ -38,21 +39,21 @@ angular.module('myApp.main', ['ngRoute', 'slick'])
                     movieId: movieId
                 }
             }).success(function (data) {
-                console.warn("RESP ", data);
+                //console.warn("RESP ", data);
             }).error(function () {
                 window.console.log("No connection");
             });
         };
 
-        $scope.onYes = function (movies, iterator) {
-            sendRating(true, movies[iterator].id);
-        };
+        $scope.onYes = function (iterator) {
+            let movie = iterator === 1 ? $scope.moviesOne[$scope.iteratorOne] : $scope.moviesTwo[$scope.iteratorTwo];
+            sendRating(true, movie.id);
 
-        $scope.onNo = function (movies, iterator) {
-            sendRating(false, movies[iterator].id);
-        };
+            if ($scope.moviesOne.length > $scope.iteratorOne + 1 && $scope.moviesTwo.length > $scope.iteratorTwo + 1) {
+                $scope.iteratorOne++;
+                $scope.iteratorTwo++;
+            }
 
-        $scope.increment = function (iteratorNumber) {
-            iteratorNumber === 1 ? $scope.iteratorOne++ : $scope.iteratorTwo++;
-        }
+            console.warn($scope.moviesOne, $scope.moviesOne.length, $scope.iteratorOne);
+        };
     }]);

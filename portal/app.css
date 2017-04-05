@@ -1,6 +1,6 @@
 body {
     color: #fff;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     height: 100%;
     margin: 0;
     background: #eee;
@@ -52,13 +52,171 @@ input[type="password"] {
     border-top-right-radius: 0;
 }
 
-
 .movie-container {
     height: 300px;
     box-sizing: border-box;
+    display: flex;
+    max-width: 1200px;
+    font-size: 16px;
+}
+
+.tile {
+    width: 380px;
+    height: 380px;
+    background-color: #99aeff;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
+    overflow: hidden;
+    color: white;
+    font-family: 'Roboto';
+    margin: 0 auto;
 }
 
 .main-wrapper {
     margin-top: 100px;
     vertical-align: middle;
+}
+
+.tile img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.4s ease-out;
+}
+
+.tile .movie-text-info {
+    position: absolute;
+    padding: 15px 30px 30px 30px;
+    height: 100%;
+}
+
+.tile h1 {
+
+    font-weight: 300;
+    margin: 0;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tile h2 {
+    font-weight: 100;
+    margin: 20px 0 0 0;
+    font-style: italic;
+    transform: translateX(200px);
+}
+
+.animate-text {
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.tile:hover {
+    box-shadow: 0 35px 77px -17px rgba(0, 0, 0, 0.64);
+    transform: scale(1.05);
+}
+
+.tile:hover img {
+    opacity: 0.2;
+}
+
+.tile:hover .animate-text {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tile:hover span {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@media (max-width: 1000px) {
+    .wrap {
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+.rated {
+    border: 1px solid white;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+
+.plot {
+    margin-top: 25px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?w1y0jf');
+    src:  url('fonts/icomoon.eot?w1y0jf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w1y0jf') format('truetype'),
+    url('fonts/icomoon.woff?w1y0jf') format('woff'),
+    url('fonts/icomoon.svg?w1y0jf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-moon {
+    font-family: 'icomoon', serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: -15px;
+}
+
+.icon-Metacritic {
+    margin-right: 5px;
+}
+
+.icon-Metacritic .path1:before {
+    content: "\e900";
+    color: rgb(0, 27, 54);
+}
+.icon-Metacritic .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-mini-tomato .path1:before {
+    content: "\e902";
+    color: rgb(255, 27, 0);
+}
+.icon-mini-tomato .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(23, 115, 23);
+}
+.icon-mini-tomato .path3:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-mini-tomato .path4:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(227, 0, 0);
+}
+
+.rater-icon {
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+.ratings-row {
+    margin-top: 60px;
+    position: absolute;
+    bottom: 10px;
 }
