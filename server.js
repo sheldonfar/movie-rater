@@ -1,7 +1,7 @@
 const express = require('express'),
     raccoon = require('raccoon'),
     path = require('path'),
-    starter = require('./starter.js'),
+    starter = require('./server/starter.js'),
     bodyParser = require('body-parser'),
     app = express();
 
