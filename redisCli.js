@@ -1,4 +1,4 @@
-const redis = require('redis'),
+var redis = require('redis'),
     config = require('./config'),
     bluebird = require('bluebird');
 

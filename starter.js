@@ -1,14 +1,14 @@
 module.exports = exports = (function(){  
 
-  const client = require('./client'),
+  var client = require('./client'),
   raccoon = require('raccoon');
 
-  const Movie = client.Movie,
+  var Movie = client.Movie,
     User = client.User,
     sequelize = client.sequelize;
 
-  const buildLoginObject = function(userName, callback){
-    let loginObject = {};
+  var buildLoginObject = function(userName, callback){
+    var loginObject = {};
 
     sequelize.Promise.all([
       User.findOrCreate({where: {name: userName}}),
@@ -17,12 +17,12 @@ module.exports = exports = (function(){
     ]).spread(function(userObj, allUsers, allMovies) {
       const user = userObj[0];
       const userId = user.id;
-      raccoon.stat.allWatchedFor(userId).then((allWatched) => {
-        raccoon.stat.recommendFor(userId, 30).then((recs) => {
+      raccoon.stat.allWatchedFor(userId).then(function (allWatched) {
+        raccoon.stat.recommendFor(userId, 30).then(function (recs) {
           loginObject = {
-            userId,
-            allUsers,
-            allMovies,
+            userId: userId,
+            allUsers: allUsers,
+            allMovies: allMovies,
             username: userName,
             alreadyWatched: allWatched,
             recommendations: recs
@@ -34,6 +34,6 @@ module.exports = exports = (function(){
   };
 
   return {
-    buildLoginObject
+    buildLoginObject: buildLoginObject
   };
 }).call(this);

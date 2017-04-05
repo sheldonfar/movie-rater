@@ -30,8 +30,7 @@ sequelize.sync({force: true}).then(function () {
         });
     };
 
-    const movies = jsonfile.readFileSync(file);
-
+    var movies = jsonfile.readFileSync(file);
 
     for (var i = 0; i < movies.length; i++) {
         insertMovie(movies[i]);
