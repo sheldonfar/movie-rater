@@ -1,9 +1,9 @@
-const serverUrl = 'http://localhost:3000/';
-let App = {};
+const serverUrl = 'http://localhost:8888/';
+var App = {};
 
 App.helpers = {
     shuffle: function (array) {
-        let currentIndex = array.length, temporaryValue, randomIndex;
+        var currentIndex = array.length, temporaryValue, randomIndex;
         while (0 !== currentIndex) {
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex -= 1;

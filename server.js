@@ -1,4 +1,4 @@
-const express = require('express'),
+var express = require('express'),
     raccoon = require('raccoon'),
     path = require('path'),
     starter = require('./starter.js'),
@@ -21,17 +21,17 @@ app.get('/login', function (req, res) {
 });
 
 app.post('/newRating', function (req, res) {
-    let replyObj = {};
+    var replyObj = {};
 
-    let raccoonFeeling = req.body.like === true ? raccoon.liked : raccoon.disliked;
+    var raccoonFeeling = req.body.like === true ? raccoon.liked : raccoon.disliked;
 
     console.warn("NEW RATING " + JSON.stringify(req.body, null, 2));
 
-    raccoonFeeling(req.body.username, req.body.movieId).then(() => {
-        raccoon.stat.recommendFor(req.body.username, 15).then((recs) => {
+    raccoonFeeling(req.body.username, req.body.movieId).then(function () {
+        raccoon.stat.recommendFor(req.body.username, 15).then(function (recs) {
             console.log('recs', recs);
-            raccoon.stat.mostSimilarUsers(req.body.username).then((simUsers) => {
-                raccoon.stat.bestRatedWithScores(9).then((bestRated) => {
+            raccoon.stat.mostSimilarUsers(req.body.username).then(function (simUsers) {
+                raccoon.stat.bestRatedWithScores(9).then(function (bestRated) {
                     replyObj = {
                         recommendations: recs,
                         similarUsers: simUsers,
@@ -45,9 +45,9 @@ app.post('/newRating', function (req, res) {
 });
 
 app.get('/likes', function (req, res) {
-    let replyObj = {};
-    raccoon.stat.likedBy(req.query[':movieId']).then((likes) => {
-        raccoon.stat.dislikedBy(req.query[':movieId']).then((dislikes) => {
+    var replyObj = {};
+    raccoon.stat.likedBy(req.query[':movieId']).then(function (likes) {
+        raccoon.stat.dislikedBy(req.query[':movieId']).then(function (dislikes) {
             replyObj = {
                 likedBy: likes,
                 dislikedBy: dislikes
@@ -57,6 +57,12 @@ app.get('/likes', function (req, res) {
     });
 });
 
-app.listen(8080, function () {
-    console.log('--- Server is up and running! ---');
+var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8888;
+var server = app.listen(port, ipaddress, function () {
+
+    var host = server.address().address;
+
+    console.log((new Date()) + '  app listening at http://%s:%s', host, port)
+
 });
