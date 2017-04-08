@@ -19,7 +19,8 @@ angular.module('myApp', [
     'ngRoute',
     'myApp.login',
     'myApp.main',
-    'myApp.mosaic'
+    'myApp.mosaic',
+    'myApp.directives'
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
 
     $routeProvider

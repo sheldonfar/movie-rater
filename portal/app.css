@@ -208,7 +208,6 @@ input[type="password"] {
 }
 
 .ratings-row {
-    margin-top: 60px;
     position: absolute;
     bottom: 10px;
 }
@@ -220,6 +219,7 @@ input[type="password"] {
 .movie-slider {
     padding: 15px;
     height: 95%;
+    min-width: 380px;
 }
 
 @font-face {

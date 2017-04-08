@@ -1,0 +1,25 @@
+<div class="tile">
+    <img ng-src="{{movie.poster}}"/>
+    <div class="movie-text-info animate-text">
+        <h2 class="animate-text">
+            {{movie.title}}
+        </h2>
+        <hr class=""/>
+        <span class="rated">Rated: {{movie.rated}}</span>
+        <span>{{movie.runtime}} - {{movie.genre}} - {{movie.year}} - {{movie.country}}</span>
+        <p class="plot">{{movie.plot}}</p>
+        <div class="row ratings-row">
+            <div class="col-md-4">
+                <p><i class="rater-icon fa fa-imdb"></i> {{movie.ratings[0].Value}}</p>
+            </div>
+            <div class="col-md-4">
+                <span class="rater-icon icon-moon icon-mini-tomato">
+                    <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+                </span>{{movie.ratings[1].Value}}
+            </div>
+            <div class="col-md-4">
+                <span class="rater-icon icon-moon icon-Metacritic">
+                    <span class="path1"></span><span class="path2"></span></span>{{movie.ratings[2].Value}}
+            </div>
+        </div>
+    /div>

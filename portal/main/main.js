@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.main', ['ngRoute', 'slick'])
+angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/main/:username', {

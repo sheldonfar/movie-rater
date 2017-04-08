@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry'])
+angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directives'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/mosaic/:username', {

@@ -3,61 +3,12 @@
     <div class="row">
         <div class="col-xs-6">
             <div class="movie-container">
-                <div class="tile" ng-click="onYes(1)">
-                    <img ng-src="{{moviesOne[iteratorOne].poster}}"/>
-                    <div class="movie-text-info animate-text">
-                        <h2 class="animate-text">
-                            {{moviesOne[iteratorOne].title}}
-                        </h2>
-                        <hr class=""/>
-                        <span class="rated">Rated: {{moviesOne[iteratorOne].rated}}</span>
-                        <span>{{moviesOne[iteratorOne].runtime}} - {{moviesOne[iteratorOne].genre}} - {{moviesOne[iteratorOne].year}} - {{moviesOne[iteratorOne].country}}</span>
-                        <p class="plot">{{moviesOne[iteratorOne].plot}}</p>
-
-                        <div class="row ratings-row">
-                            <div class="col-md-4">
-                                <p><i class="rater-icon fa fa-imdb"></i> {{moviesOne[iteratorOne].ratings[0].Value}}</p>
-                            </div>
-                            <div class="col-md-4">
-                                <span class="rater-icon icon-moon icon-mini-tomato">
-                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
-                                </span>{{moviesOne[iteratorOne].ratings[1].Value}}
-                            </div>
-                            <div class="col-md-4">
-                                 <span class="rater-icon icon-moon icon-Metacritic"><span class="path1"></span><span class="path2"></span></span>{{moviesOne[iteratorOne].ratings[2].Value}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <movietile movie="moviesOne[iteratorOne]" ng-click="onYes(1)"></movietile>
             </div>
         </div>
         <div class="col-xs-6">
             <div class="movie-container">
-                <div class="tile" ng-click="onYes(2)">
-                    <img ng-src="{{moviesTwo[iteratorTwo].poster}}"/>
-                    <div class="movie-text-info animate-text">
-                        <h2 class="animate-text">
-                            {{moviesTwo[iteratorTwo].title}}
-                        </h2>
-                        <hr class=""/>
-                        <span class="rated">Rated: {{moviesTwo[iteratorTwo].rated}}</span>
-                        <span>{{moviesTwo[iteratorTwo].runtime}} - {{moviesTwo[iteratorTwo].genre}} - {{moviesTwo[iteratorTwo].year}} - {{moviesTwo[iteratorTwo].country}}</span>
-                        <p class="plot">{{moviesTwo[iteratorTwo].plot}}</p>
-
-                        <div class="row ratings-row">
-                            <div class="col-md-4">
-                                <p><i class="rater-icon fa fa-imdb"></i> {{moviesTwo[iteratorTwo].ratings[0].Value}}</p>
-                            </div>
-                            <div class="col-md-4">
-                                <span class="rater-icon icon-moon icon-mini-tomato">
-                                    <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
-                                </span>{{moviesTwo[iteratorTwo].ratings[1].Value}}
-                            </div>
-                            <div class="col-md-4">
-                                <span class="rater-icon icon-moon icon-Metacritic"><span class="path1"></span><span class="path2"></span></span>{{moviesTwo[iteratorTwo].ratings[2].Value}}
-                            </div>
-                        </div>
-                </div>
+                <movietile movie="moviesTwo[iteratorTwo]" ng-click="onYes(2)"></movietile>
             </div>
         </div>
     </div>

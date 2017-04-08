@@ -1,34 +1,8 @@
-<div class="container">
-    <slick init-onload='true' center-padding="0px" center-mode="true" variable-width="true"
+<div class="container" style="width:1235px">
+    <slick dots="true" init-onload='true' variable-width="true"
            data="movies" infinite="true" slides-to-show="3">
         <div class="movie-container movie-slider" ng-repeat="movie in movies">
-            <div class="tile" ng-click="onYes(2)">
-                <img ng-src="{{movie.poster}}"/>
-                <div class="movie-text-info animate-text">
-                    <h2 class="animate-text">
-                        {{movie.title}}
-                    </h2>
-                    <hr class=""/>
-                    <span class="rated">Rated: {{movie.rated}}</span>
-                    <span>{{movie.runtime}} - {{movie.genre}} - {{movie.year}} - {{movie.country}}</span>
-                    <p class="plot">{{movie.plot}}</p>
-                    <div class="row ratings-row">
-                        <div class="col-md-4">
-                            <p><i class="rater-icon fa fa-imdb"></i> {{movie.ratings[0].Value}}</p>
-                        </div>
-                        <div class="col-md-4">
-                            <span class="rater-icon icon-moon icon-mini-tomato">
-                                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span
-                                    class="path4"></span>
-                            </span>{{movie.ratings[1].Value}}
-                        </div>
-                        <div class="col-md-4">
-                            <span class="rater-icon icon-moon icon-Metacritic"><span class="path1"></span><span
-                                    class="path2"></span></span>{{movie.ratings[2].Value}}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <movietile movie="movie" ng-click="onYes" ></movietile>
         </div>
     </slick>
     <div masonry masonry-options="{ fitWidth: 'true', gutter: 20 }">
@@ -36,5 +10,4 @@
             <img ng-src="{{ movie.poster }}" alt="A masonry brick">
         </div>
     </div>
-
 </div>
