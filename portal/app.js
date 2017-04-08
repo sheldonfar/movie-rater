@@ -18,7 +18,8 @@ App.helpers = {
 angular.module('myApp', [
     'ngRoute',
     'myApp.login',
-    'myApp.main'
+    'myApp.main',
+    'myApp.mosaic'
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
 
     $routeProvider
