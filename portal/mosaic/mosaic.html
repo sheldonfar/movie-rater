@@ -31,4 +31,10 @@
             </div>
         </div>
     </slick>
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 20 }">
+        <div class="masonry-brick" ng-repeat="movie in movies">
+            <img ng-src="{{ movie.poster }}" alt="A masonry brick">
+        </div>
+    </div>
+
 </div>
