@@ -1,13 +1,12 @@
-<div class="container" style="width:1235px">
-    <slick dots="true" init-onload='true' variable-width="true"
-           data="movies" infinite="true" slides-to-show="3">
+<div class="container" style="width:1335px">
+    <slick dots="true" init-onload='true' variable-width="true" data="movies" infinite="true" slides-to-show="3">
         <div class="movie-container movie-slider" ng-repeat="movie in movies">
-            <movietile movie="movie" ng-click="onYes" ></movietile>
+            <movietile movie="movie" ng-click="onYes"></movietile>
         </div>
     </slick>
-    <div masonry masonry-options="{ fitWidth: 'true', gutter: 20 }">
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
         <div class="masonry-brick" ng-repeat="movie in movies">
-            <img ng-src="{{ movie.poster }}" alt="A masonry brick">
+            <movietile movie="movie" ng-click="onYes" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>
 </div>

@@ -4,14 +4,22 @@ angular
     .module('myApp.directives', [])
     .directive('movietile', function () {
         return {
-            restrict: 'AE',
+            restrict: 'E',
             templateUrl: 'directives/movie-tile.html',
             replace: true,
             scope: {
-                movie: '=movie'
+                movie: '=movie',
+                tileWidth: '=',
+                tileHeight: '='
             },
-            link: function (scope, elem, attrs) {
+            compile: function (elem, attrs) {
+                attrs.tileWidth = attrs.tileWidth || '380';
+                attrs.tileHeight = attrs.tileHeight || '380';
+                attrs.smallTile = +attrs.tileWidth < 300 || +attrs.tileHeight < 300;
 
+                return function(scope, elem, attrs) {
+                    scope.smallTile = attrs.smallTile;
+                }
             }
         }
     });
