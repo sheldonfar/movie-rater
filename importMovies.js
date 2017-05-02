@@ -21,7 +21,8 @@ sequelize.sync({force: true}).then(function () {
             poster: jsonMovie['Poster'],
             runtime: jsonMovie['Runtime'],
             plot: jsonMovie['Plot'],
-            ratings: jsonMovie['Ratings']
+            criticRatings: jsonMovie['Ratings'],
+            rating: 1400
         });
         movie.save().catch(function (error) {
             if (error) {

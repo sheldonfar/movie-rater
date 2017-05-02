@@ -1,12 +1,86 @@
 <div class="container" style="width:1335px">
-    <slick dots="true" init-onload='true' variable-width="true" data="movies" infinite="true" slides-to-show="3">
+    <div class="row" style="margin-top: 10px">
+        <div class="col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <strong>Global top 5</strong>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Rating</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="movie in movies | orderBy: 'rating':true | limitTo: 5">
+                            <td>{{$index + 1}}</td>
+                            <td>{{movie.title}}</td>
+                            <td>{{movie.rating}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-heading row" style="margin: 0">
+                    <div class="col-xs-4 no-padding">
+                        <strong>Top 5 by genre</strong>
+                    </div>
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4">
+                        <select ng-init="search.genre = 'Action'" ng-model="search.genre" class="form-control select-low">
+                            <option value="Action">Action</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Crime">Crime</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Mystery">Mystery</option>
+                            <option value="Sci-Fi">Sci-Fi</option>
+                            <option value="Thriller">Thriller</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Rating</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="movie in movies | filter: search | orderBy: 'rating':true | limitTo: 5">
+                            <td>{{$index + 1}}</td>
+                            <td>{{movie.title}}</td>
+                            <td>{{movie.genre}}</td>
+                            <td>{{movie.rating}}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <slick dots="true" init-onload='true' variable-width="true" data="recommendations" infinite="true" slides-to-show="3">
         <div class="movie-container movie-slider" ng-repeat="movie in movies">
-            <movietile movie="movie" ng-click="onYes"></movietile>
+            <movietile movie="movie" ng-click="onYes(movie.id, true)"></movietile>
         </div>
     </slick>
+    <div style="padding-left: 15px">
+        <h3>Recommendations for <strong>{{username}}</strong></h3>
+        <hr>
+    </div>
     <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
-        <div class="masonry-brick" ng-repeat="movie in movies">
-            <movietile movie="movie" ng-click="onYes" tile-width="140" tile-height="140"></movietile>
+        <div class="masonry-brick" ng-repeat="movie in recommendations">
+            <movietile movie="movie" ng-click="onYes(movie.id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>
 </div>

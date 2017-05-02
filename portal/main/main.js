@@ -15,7 +15,7 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
         $http({
             method: 'GET',
             url: config.serverUrls.login,
-            data: {username: $scope.username}
+            params: {username: $scope.username}
         }).then(function (resp) {
             console.warn("DATA ", resp.data);
             $scope.movies = App.helpers.shuffle(resp.data.allMovies);
@@ -28,7 +28,7 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
             window.console.log("No connection");
         });
 
-        var sendRating = function (isLiked, movieId) {
+        var sendRating = function (isLiked, movieId, movie2Id) {
             //console.warn("SEND ", $scope.username, isLiked, movieId);
             $http({
                 method: 'POST',
@@ -36,10 +36,10 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
                 data: {
                     username: $scope.username,
                     like: isLiked,
-                    movieId: movieId
+                    movieId: movieId,
+                    movieId2: movie2Id
                 }
             }).then(function (data) {
-                //console.warn("RESP ", data);
             }, function () {
                 window.console.log("No connection");
             });
@@ -47,7 +47,8 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
 
         $scope.onYes = function (iterator) {
             var movie = iterator === 1 ? $scope.moviesOne[$scope.iteratorOne] : $scope.moviesTwo[$scope.iteratorTwo];
-            sendRating(true, movie.id);
+            var movie2 = iterator === 1 ? $scope.moviesTwo[$scope.iteratorTwo] : $scope.moviesOne[$scope.iteratorOne];
+            sendRating(true, movie.id, movie2.id);
 
             if ($scope.moviesOne.length > $scope.iteratorOne + 1 && $scope.moviesTwo.length > $scope.iteratorTwo + 1) {
                 $scope.iteratorOne++;
@@ -55,7 +56,5 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
             } else {
                 $location.path('/mosaic/' + $scope.username);
             }
-
-            console.warn($scope.moviesOne, $scope.moviesOne.length, $scope.iteratorOne);
         };
     }]);

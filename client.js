@@ -19,7 +19,8 @@ var Movie = sequelize.define('movie', {
     poster: Sequelize.STRING,
     runtime: Sequelize.STRING,
     plot: Sequelize.STRING,
-    ratings: Sequelize.JSON
+    criticRatings: Sequelize.JSON,
+    rating: Sequelize.INTEGER
 });
 
 module.exports = exports = {

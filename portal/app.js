@@ -30,6 +30,8 @@ angular.module('myApp', [
     appVersion: '0.0.1',
     serverUrls: {
         login: serverUrl + 'login',
+        movies: serverUrl + 'movies',
+        recommendations: serverUrl + 'recommendations',
         newRating: serverUrl + 'newRating',
         likes: serverUrl + 'likes'
     }

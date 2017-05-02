@@ -14,19 +14,27 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
 
         $http({
             method: 'GET',
-            url: config.serverUrls.login,
-            data: {username: $scope.username}
+            url: config.serverUrls.movies,
+            params: {username: $scope.username}
         }).then(function (resp) {
-            console.warn("DATA ", resp.data);
-            $scope.movies = App.helpers.shuffle(resp.data.allMovies);
+            $scope.movies = App.helpers.shuffle(resp.data);
+            $scope.top5Elo =
             $scope.iterator = 0;
+        }, function () {
+            window.console.log("No connection");
+        });
 
+        $http({
+            method: 'GET',
+            url: config.serverUrls.recommendations,
+            params: {username: $scope.username}
+        }).then(function (resp) {
+            $scope.recommendations = resp.data.recommendations;
         }, function () {
             window.console.log("No connection");
         });
 
         var sendRating = function (isLiked, movieId) {
-            //console.warn("SEND ", $scope.username, isLiked, movieId);
             $http({
                 method: 'POST',
                 url: config.serverUrls.newRating,
@@ -35,15 +43,15 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
                     like: isLiked,
                     movieId: movieId
                 }
-            }).then(function (data) {
-                //console.warn("RESP ", data);
+            }).then(function (resp) {
+                console.warn("RESP ", resp);
+                $scope.recommendations = App.helpers.shuffle(resp.data.recommendations);
             }, function () {
                 window.console.log("No connection");
             });
         };
 
-        $scope.onYes = function (iterator) {
-            var movie = iterator === 1 ? $scope.moviesOne[$scope.iteratorOne] : $scope.moviesTwo[$scope.iteratorTwo];
-            sendRating(true, movie.id);
+        $scope.onYes = function (id) {
+            sendRating(true, id);
         };
     }]);

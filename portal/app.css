@@ -1,5 +1,4 @@
 body {
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     height: 100%;
     margin: 0;
     background: #eee;
@@ -19,13 +18,6 @@ body {
 
 .checkbox {
     font-weight: normal;
-}
-
-.form-control {
-    position: relative;
-    font-size: 16px;
-    height: auto;
-    padding: 10px;
 }
 
 input[type="text"] {
@@ -49,21 +41,22 @@ input[type="password"] {
 }
 
 .tile {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     background-color: #99aeff;
     display: inline-block;
     background-size: cover;
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-out;
-    box-shadow: 5px 5px 3px rgba(0,0,0,.13), 1px 2px 2px rgba(0,0,0,.1), -1px -2px 2px rgba(0,0,0,.05);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .13), 1px 2px 2px rgba(0, 0, 0, .1), -1px -2px 2px rgba(0, 0, 0, .05);
     overflow: hidden;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
 
 .tile:hover {
-    box-shadow: 5px 5px 3px rgba(0,0,0,.13), 1px 2px 2px rgba(0,0,0,.1), -1px -2px 2px rgba(0,0,0,.05);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .13), 1px 2px 2px rgba(0, 0, 0, .1), -1px -2px 2px rgba(0, 0, 0, .05);
     transform: scale(1.05);
 }
 
@@ -132,7 +125,8 @@ input[type="password"] {
 }
 
 .plot {
-    margin-top: 25px;
+    margin-top: 15px;
+    font-size: 14px;
 }
 
 @font-face {
@@ -204,11 +198,7 @@ input[type="password"] {
 
 .ratings-row {
     position: absolute;
-    bottom: 10px;
-}
-
-.carousel-container {
-
+    bottom: 0;
 }
 
 .movie-slider {
@@ -371,9 +361,8 @@ input[type="password"] {
 }
 
 .deckgrid[deckgrid]::before {
-    /* Specifies that the grid should have a maximum of 4 columns. Each column will have the classes 'column' and 'column-1-4' */
     content: '4 .column.column-1-4';
-    font-size: 0; /* See https://github.com/akoenig/angular-deckgrid/issues/14#issuecomment-35728861 */
+    font-size: 0;
     visibility: hidden;
 }
 
@@ -389,3 +378,15 @@ input[type="password"] {
     margin-top: 20px;
 }
 
+.auto-margin {
+    margin: 0 auto;
+}
+
+.select-low {
+    height: 20px;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
