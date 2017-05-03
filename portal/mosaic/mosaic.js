@@ -17,9 +17,9 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
             url: config.serverUrls.movies,
             params: {username: $scope.username}
         }).then(function (resp) {
-            $scope.movies = App.helpers.shuffle(resp.data);
+            $scope.movies = resp.data;
             $scope.top5Elo =
-            $scope.iterator = 0;
+                $scope.iterator = 0;
         }, function () {
             window.console.log("No connection");
         });
