@@ -20,37 +20,41 @@ app.get('/login', function (req, res) {
     });
 });
 
-app.get('/recommendations', function (req, res) {
-    raccoon.stat.recommendFor(req.query.username, 15).then(function (recs) {
-        raccoon.stat.mostSimilarUsers(req.query.username).then(function (simUsers) {
+var sendRating = function (req, res) {
+    var username = req.body.username || req.query.username;
+    var send = function (recommendations) {
+        raccoon.stat.mostSimilarUsers(username).then(function (simUsers) {
             raccoon.stat.bestRatedWithScores(9).then(function (bestRated) {
                 res.send({
-                    recommendations: recs,
+                    recommendations: recommendations,
                     similarUsers: simUsers,
                     bestScores: bestRated
                 });
             });
         });
+    };
+    raccoon.stat.recommendFor(username, 15).then(function (recs) {
+        var recommendations = [];
+        if (recs.length === 0) {
+            send(recommendations);
+        } else {
+            for (var rec in recs) {
+                starter.getMovieById(+recs[rec]).then(function (movie) {
+                    recommendations.push(movie);
+                    if (recommendations.length === recs.length) {
+                        send(recommendations);
+                    }
+                });
+            }
+        }
     });
+};
+
+app.get('/recommendations', function (req, res) {
+    sendRating(req, res);
 });
 
 app.post('/newRating', function (req, res) {
-    var sendRating = function (recommendations) {
-        console.warn("RECCCOMNETDATIONDs ", recommendations);
-        raccoon.stat.mostSimilarUsers(req.body.username).then(function (simUsers) {
-            raccoon.stat.bestRatedWithScores(9).then(function (bestRated) {
-                replyObj = {
-                    recommendations: recommendations,
-                    similarUsers: simUsers,
-                    bestScores: bestRated
-                };
-                res.send(replyObj);
-            });
-        });
-    };
-
-    var replyObj = {};
-
     var raccoonFeeling = req.body.like === true ? raccoon.liked : raccoon.disliked;
 
     if (req.body.movieId2) {
@@ -67,22 +71,7 @@ app.post('/newRating', function (req, res) {
     }
 
     raccoonFeeling(req.body.username, req.body.movieId).then(function () {
-        raccoon.stat.recommendFor(req.body.username, 15).then(function (recs) {
-            var recommendations = [];
-            console.warn("RECS ", recs);
-            if (recs.length === 0) {
-                sendRating(recommendations);
-            } else {
-                for (var rec in recs) {
-                    starter.getMovieById(+recs[rec]).then(function (movie) {
-                        recommendations.push(movie);
-                        if (recommendations.length === recs.length) {
-                            sendRating(recommendations);
-                        }
-                    });
-                }
-            }
-        });
+        sendRating(req, res);
     });
 });
 
