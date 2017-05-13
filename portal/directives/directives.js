@@ -1,8 +1,8 @@
 'use strict';
 
 angular
-    .module('myApp.directives', [])
-    .directive('movietile', function () {
+    .module('myApp.directives', ['ngRoute'])
+    .directive('movietile', ['$location', function ($location) {
         return {
             restrict: 'E',
             templateUrl: 'directives/movie-tile.html',
@@ -18,8 +18,12 @@ angular
                 attrs.smallTile = +attrs.tileWidth < 300 || +attrs.tileHeight < 300;
 
                 return function(scope, elem, attrs) {
+                    scope.goToMoviePage = function () {
+                        console.warn("GOTOOO ", scope.movie);
+                        $location.path('/movie/' + scope.movie.id);
+                    };
                     scope.smallTile = attrs.smallTile;
                 }
             }
         }
-    });
+    }]);

@@ -41,7 +41,7 @@ module.exports = exports = (function () {
         })
     };
 
-    var getMovieById = function (movieId, callback) {
+    var getMovieById = function (movieId) {
         return Movie.findOne({where: {id: movieId}});
     };
 

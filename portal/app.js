@@ -20,6 +20,7 @@ angular.module('myApp', [
     'myApp.login',
     'myApp.main',
     'myApp.mosaic',
+    'myApp.movie',
     'myApp.directives'
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
 
@@ -31,6 +32,7 @@ angular.module('myApp', [
     serverUrls: {
         login: serverUrl + 'login',
         movies: serverUrl + 'movies',
+        movie: serverUrl + 'movie',
         recommendations: serverUrl + 'recommendations',
         newRating: serverUrl + 'newRating',
         likes: serverUrl + 'likes'

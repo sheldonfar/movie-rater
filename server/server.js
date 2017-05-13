@@ -81,6 +81,12 @@ app.get('/movies', function (req, res) {
     });
 });
 
+app.get('/movie', function (req, res) {
+    starter.getMovieById(req.body.movieId || req.query.movieId).then(function (object) {
+        res.send(object);
+    });
+});
+
 app.get('/likes', function (req, res) {
     var replyObj = {};
     raccoon.stat.likedBy(req.query[':movieId']).then(function (likes) {
