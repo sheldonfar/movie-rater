@@ -4,12 +4,13 @@
         <h2 class="movie-title animate-text" ng-class="{'resizable-font': smallTile}">
             {{movie.title}} ({{movie.year}})
         </h2>
+        <p class="elo-rating" ng-show="smallTile">Rating: {{movie.rating}}</p>
         <hr/>
         <div ng-hide="smallTile">
             <span class="rated">Rated: {{movie.rated}}</span>
             <span>{{movie.runtime}} - {{movie.genre}} - {{movie.country}}</span>
             <p class="plot">{{movie.plot}}</p>
-            <p class="elo-rating">Elo rating: {{movie.rating}}</p>
+            <p>Elo rating: {{movie.rating}}</p>
             <div class="row ratings-row">
                 <div class="col-md-4">
                     <p><i class="rater-icon fa fa-imdb"></i> {{movie.criticRatings[0].Value}}</p>

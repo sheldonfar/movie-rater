@@ -57,4 +57,8 @@ angular.module('myApp.main', ['ngRoute', 'slick', 'myApp.directives'])
                 $location.path('/mosaic/' + $scope.username);
             }
         };
+
+        $scope.skip = function () {
+            $location.path('/mosaic/' + $scope.username);
+        }
     }]);

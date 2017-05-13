@@ -79,7 +79,7 @@
         <hr>
     </div>
     <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
-        <div class="masonry-brick" ng-repeat="movie in recommendations">
+        <div class="masonry-brick" ng-repeat="movie in recommendations | orderBy: 'rating':true">
             <movietile movie="movie" ng-click="onYes(movie.id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>

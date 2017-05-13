@@ -390,3 +390,12 @@ input[type="password"] {
     padding: 0;
     margin: 0;
 }
+
+.elo-rating {
+    margin-top: 10px;
+}
+
+.skip-btn {
+    margin-top: 150px;
+}
+
