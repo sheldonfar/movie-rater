@@ -399,3 +399,6 @@ input[type="password"] {
     margin-top: 150px;
 }
 
+.bold {
+    font-weight: bold;
+}

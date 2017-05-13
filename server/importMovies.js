@@ -16,13 +16,28 @@ sequelize.sync({force: true}).then(function () {
             title: jsonMovie['Title'],
             year: jsonMovie['Year'],
             rated: jsonMovie['Rated'],
-            genre: jsonMovie['Genre'],
-            country: jsonMovie['Country'],
-            poster: jsonMovie['Poster'],
+            released: jsonMovie['Released'],
             runtime: jsonMovie['Runtime'],
+            genre: jsonMovie['Genre'],
+            director: jsonMovie['Director'],
+            writer: jsonMovie['Writer'],
+            actors: jsonMovie['Actors'],
             plot: jsonMovie['Plot'],
+            language: jsonMovie['Language'],
+            country: jsonMovie['Country'],
+            awards: jsonMovie['Awards'],
+            poster: jsonMovie['Poster'],
             criticRatings: jsonMovie['Ratings'],
-            rating: 1400
+            rating: 1400,
+            metascore: jsonMovie['Metascore'],
+            imdbRating: jsonMovie['imdbRating'],
+            imdbVotes: jsonMovie['imdbVotes'],
+            imdbID:  jsonMovie['imdbID'],
+            type: jsonMovie['Type'],
+            dvd: jsonMovie['DVD'],
+            boxOffice:  jsonMovie['BoxOffice'],
+            production:  jsonMovie['Production'],
+            website: jsonMovie['Website']
         });
         movie.save().catch(function (error) {
             if (error) {

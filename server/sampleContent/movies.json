@@ -36,8 +36,7 @@
     "DVD": "27 Jan 1998",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Dark Knight",
@@ -76,8 +75,7 @@
     "DVD": "09 Dec 2008",
     "BoxOffice": "$533,316,061.00",
     "Production": "Warner Bros. Pictures/Legendary",
-    "Website": "http://thedarkknight.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://thedarkknight.warnerbros.com/"
   },
   {
     "Title": "Schindler's List",
@@ -116,8 +114,7 @@
     "DVD": "09 Mar 2004",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "http://www.schindlerslist.com",
-    "Response": "True"
+    "Website": "http://www.schindlerslist.com"
   },
   {
     "Title": "The Godfather: Part II",
@@ -156,8 +153,7 @@
     "DVD": "24 May 2005",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "http://www.thegodfather.com/",
-    "Response": "True"
+    "Website": "http://www.thegodfather.com/"
   },
   {
     "Title": "Pulp Fiction",
@@ -196,8 +192,7 @@
     "DVD": "19 May 1998",
     "BoxOffice": "N/A",
     "Production": "Miramax Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Lord of the Rings: The Return of the King",
@@ -236,8 +231,7 @@
     "DVD": "25 May 2004",
     "BoxOffice": "$364,000,000.00",
     "Production": "New Line Cinema",
-    "Website": "http://www.lordoftherings.net/",
-    "Response": "True"
+    "Website": "http://www.lordoftherings.net/"
   },
   {
     "Title": "The Good, the Bad and the Ugly",
@@ -276,8 +270,7 @@
     "DVD": "18 Nov 1997",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Fight Club",
@@ -316,8 +309,7 @@
     "DVD": "06 Jun 2000",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.foxmovies.com/fightclub/",
-    "Response": "True"
+    "Website": "http://www.foxmovies.com/fightclub/"
   },
   {
     "Title": "12 Angry Men",
@@ -352,8 +344,7 @@
     "DVD": "06 Mar 2001",
     "BoxOffice": "N/A",
     "Production": "Criterion Collection",
-    "Website": "http://www.criterion.com/films/27871-12-angry-men",
-    "Response": "True"
+    "Website": "http://www.criterion.com/films/27871-12-angry-men"
   },
   {
     "Title": "Forrest Gump",
@@ -392,8 +383,7 @@
     "DVD": "28 Aug 2001",
     "BoxOffice": "$405,000.00",
     "Production": "Paramount Pictures",
-    "Website": "http://www.paramount.com/movies/forrest-gump/",
-    "Response": "True"
+    "Website": "http://www.paramount.com/movies/forrest-gump/"
   },
   {
     "Title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -432,8 +422,7 @@
     "DVD": "06 Aug 2002",
     "BoxOffice": "$314,000,000.00",
     "Production": "New Line Cinema",
-    "Website": "http://www.lordoftherings.net/film/trilogy/thefellowship.html",
-    "Response": "True"
+    "Website": "http://www.lordoftherings.net/film/trilogy/thefellowship.html"
   },
   {
     "Title": "Inception",
@@ -472,8 +461,7 @@
     "DVD": "07 Dec 2010",
     "BoxOffice": "$292,568,851.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://inceptionmovie.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://inceptionmovie.warnerbros.com/"
   },
   {
     "Title": "Star Wars: Episode V - The Empire Strikes Back",
@@ -512,8 +500,7 @@
     "DVD": "21 Sep 2004",
     "BoxOffice": "$4,548,170.00",
     "Production": "Twentieth Century Fox",
-    "Website": "http://www.starwars.com/episode-v/",
-    "Response": "True"
+    "Website": "http://www.starwars.com/episode-v/"
   },
   {
     "Title": "The Lord of the Rings: The Two Towers",
@@ -552,8 +539,7 @@
     "DVD": "26 Aug 2003",
     "BoxOffice": "$339,700,000.00",
     "Production": "New Line Cinema",
-    "Website": "http://www.lordoftherings.net/",
-    "Response": "True"
+    "Website": "http://www.lordoftherings.net/"
   },
   {
     "Title": "One Flew Over the Cuckoo's Nest",
@@ -592,8 +578,7 @@
     "DVD": "09 Dec 1997",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Goodfellas",
@@ -632,8 +617,7 @@
     "DVD": "26 Mar 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Matrix",
@@ -672,8 +656,7 @@
     "DVD": "21 Sep 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.whatisthematrix.com",
-    "Response": "True"
+    "Website": "http://www.whatisthematrix.com"
   },
   {
     "Title": "Se7en",
@@ -712,8 +695,7 @@
     "DVD": "14 Apr 1997",
     "BoxOffice": "N/A",
     "Production": "New Line Cinema",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Silence of the Lambs",
@@ -752,8 +734,7 @@
     "DVD": "01 Jul 1998",
     "BoxOffice": "N/A",
     "Production": "Orion Pictures Corporation",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Star Wars: Episode IV - A New Hope",
@@ -792,8 +773,7 @@
     "DVD": "21 Sep 2004",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.starwars.com/episode-iv/",
-    "Response": "True"
+    "Website": "http://www.starwars.com/episode-iv/"
   },
   {
     "Title": "Se7en",
@@ -832,8 +812,7 @@
     "DVD": "14 Apr 1997",
     "BoxOffice": "N/A",
     "Production": "New Line Cinema",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "It's a Wonderful Life",
@@ -868,8 +847,7 @@
     "DVD": "19 Sep 1995",
     "BoxOffice": "N/A",
     "Production": "Liberty Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "La vita è bella",
@@ -900,8 +878,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Usual Suspects",
@@ -940,8 +917,7 @@
     "DVD": "09 Dec 1999",
     "BoxOffice": "N/A",
     "Production": "Gramercy Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Léon: The Professional",
@@ -980,8 +956,7 @@
     "DVD": "15 Aug 2000",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Spirited Away",
@@ -1020,8 +995,7 @@
     "DVD": "15 Apr 2003",
     "BoxOffice": "$9,855,615.00",
     "Production": "Walt Disney Pictures",
-    "Website": "http://bventertainment.go.com/movies/spiritedaway",
-    "Response": "True"
+    "Website": "http://bventertainment.go.com/movies/spiritedaway"
   },
   {
     "Title": "Saving Private Ryan",
@@ -1060,8 +1034,7 @@
     "DVD": "02 Nov 1999",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "http://https://www.facebook.com/SavingPrivateRyanMovie",
-    "Response": "True"
+    "Website": "http://https://www.facebook.com/SavingPrivateRyanMovie"
   },
   {
     "Title": "Once Upon a Time in the West",
@@ -1100,8 +1073,7 @@
     "DVD": "18 Nov 2003",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "American History X",
@@ -1140,8 +1112,7 @@
     "DVD": "06 Apr 1999",
     "BoxOffice": "N/A",
     "Production": "New Line Cinema",
-    "Website": "http://www.historyx.com",
-    "Response": "True"
+    "Website": "http://www.historyx.com"
   },
   {
     "Title": "Interstellar",
@@ -1180,8 +1151,7 @@
     "DVD": "31 Mar 2015",
     "BoxOffice": "$158,737,441.00",
     "Production": "Paramount Pictures",
-    "Website": "http://www.InterstellarMovie.com/",
-    "Response": "True"
+    "Website": "http://www.InterstellarMovie.com/"
   },
   {
     "Title": "Casablanca",
@@ -1216,8 +1186,7 @@
     "DVD": "15 Feb 2000",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.FathomEvents.com",
-    "Response": "True"
+    "Website": "http://www.FathomEvents.com"
   },
   {
     "Title": "The Green Mile",
@@ -1256,8 +1225,7 @@
     "DVD": "13 Jun 2000",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.thegreenmile.com",
-    "Response": "True"
+    "Website": "http://www.thegreenmile.com"
   },
   {
     "Title": "City Lights",
@@ -1292,8 +1260,7 @@
     "DVD": "08 Feb 2000",
     "BoxOffice": "N/A",
     "Production": "Twentieth Century Fox Home Entertainment",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Intouchables",
@@ -1332,8 +1299,7 @@
     "DVD": "05 Mar 2013",
     "BoxOffice": "$13,179,837.00",
     "Production": "The Weinstein Company",
-    "Website": "http://weinsteinco.com/sites/the-intouchables/",
-    "Response": "True"
+    "Website": "http://weinsteinco.com/sites/the-intouchables/"
   },
   {
     "Title": "Psycho",
@@ -1368,8 +1334,7 @@
     "DVD": "06 Mar 2001",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Raiders of the Lost Ark",
@@ -1408,8 +1373,7 @@
     "DVD": "21 Oct 2003",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "http://www.indianajones.com/raiders/",
-    "Response": "True"
+    "Website": "http://www.indianajones.com/raiders/"
   },
   {
     "Title": "Modern Times",
@@ -1448,8 +1412,7 @@
     "DVD": "23 Aug 2010",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "http://www.kino.com/moderntimes",
-    "Response": "True"
+    "Website": "http://www.kino.com/moderntimes"
   },
   {
     "Title": "Rear Window",
@@ -1484,8 +1447,7 @@
     "DVD": "06 Mar 2001",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Pianist",
@@ -1524,8 +1486,7 @@
     "DVD": "27 May 2003",
     "BoxOffice": "$32,519,322.00",
     "Production": "Focus Features",
-    "Website": "http://www.thepianistmovie.com/",
-    "Response": "True"
+    "Website": "http://www.thepianistmovie.com/"
   },
   {
     "Title": "The Departed",
@@ -1564,8 +1525,7 @@
     "DVD": "13 Feb 2007",
     "BoxOffice": "$132,300,000.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.thedeparted.com/",
-    "Response": "True"
+    "Website": "http://www.thedeparted.com/"
   },
   {
     "Title": "Terminator 2: Judgment Day",
@@ -1604,8 +1564,7 @@
     "DVD": "31 Mar 1998",
     "BoxOffice": "$198,116,802.00",
     "Production": "TriStar Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Back to the Future",
@@ -1644,8 +1603,7 @@
     "DVD": "17 Dec 2002",
     "BoxOffice": "$2,925,880.00",
     "Production": "Universal Pictures",
-    "Website": "http://www.bttfmovie.com/",
-    "Response": "True"
+    "Website": "http://www.bttfmovie.com/"
   },
   {
     "Title": "Whiplash",
@@ -1684,8 +1642,7 @@
     "DVD": "24 Feb 2015",
     "BoxOffice": "N/A",
     "Production": "Sony Pictures Classics",
-    "Website": "http://sonyclassics.com/whiplash/",
-    "Response": "True"
+    "Website": "http://sonyclassics.com/whiplash/"
   },
   {
     "Title": "Memento",
@@ -1724,8 +1681,7 @@
     "DVD": "04 Sep 2001",
     "BoxOffice": "$23,844,220.00",
     "Production": "Newmarket Films",
-    "Website": "http://www.otnemem.com",
-    "Response": "True"
+    "Website": "http://www.otnemem.com"
   },
   {
     "Title": "Gladiator",
@@ -1764,8 +1720,7 @@
     "DVD": "21 Nov 2000",
     "BoxOffice": "N/A",
     "Production": "Dreamworks Distribution LLC",
-    "Website": "http://www.gladiator-thefilm.com",
-    "Response": "True"
+    "Website": "http://www.gladiator-thefilm.com"
   },
   {
     "Title": "The Prestige",
@@ -1804,8 +1759,7 @@
     "DVD": "20 Feb 2007",
     "BoxOffice": "$53,100,000.00",
     "Production": "Buena Vista Pictures",
-    "Website": "http://touchstone.movies.go.com/index.html?dlink=prestige",
-    "Response": "True"
+    "Website": "http://touchstone.movies.go.com/index.html?dlink=prestige"
   },
   {
     "Title": "Apocalypse Now",
@@ -1844,8 +1798,7 @@
     "DVD": "20 Nov 2001",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "http://www.zoetrope.com/zoe_films.cgi?page=films&action=show_one&film_id=13",
-    "Response": "True"
+    "Website": "http://www.zoetrope.com/zoe_films.cgi?page=films&action=show_one&film_id=13"
   },
   {
     "Title": "The Lion King",
@@ -1884,8 +1837,7 @@
     "DVD": "07 Oct 2003",
     "BoxOffice": "$94,240,635.00",
     "Production": "Buena Vista",
-    "Website": "http://disney.go.com/lionking/",
-    "Response": "True"
+    "Website": "http://disney.go.com/lionking/"
   },
   {
     "Title": "Alien",
@@ -1924,8 +1876,7 @@
     "DVD": "06 Jan 2004",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.foxmovies.com/index1.html",
-    "Response": "True"
+    "Website": "http://www.foxmovies.com/index1.html"
   },
   {
     "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
@@ -1964,8 +1915,7 @@
     "DVD": "02 Nov 2004",
     "BoxOffice": "N/A",
     "Production": "Sony Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Great Dictator",
@@ -2000,8 +1950,7 @@
     "DVD": "10 May 2010",
     "BoxOffice": "N/A",
     "Production": "Criterion Collection",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Paths of Glory",
@@ -2036,8 +1985,7 @@
     "DVD": "15 May 2001",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Django Unchained",
@@ -2076,8 +2024,7 @@
     "DVD": "16 Apr 2013",
     "BoxOffice": "$162,804,648.00",
     "Production": "The Weinstein Co.",
-    "Website": "http://unchainedmovie.com/",
-    "Response": "True"
+    "Website": "http://unchainedmovie.com/"
   },
   {
     "Title": "The Dark Knight Rises",
@@ -2116,8 +2063,7 @@
     "DVD": "03 Dec 2012",
     "BoxOffice": "$448,130,642.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.thedarkknightrises.com/",
-    "Response": "True"
+    "Website": "http://www.thedarkknightrises.com/"
   },
   {
     "Title": "The Shining",
@@ -2156,8 +2102,7 @@
     "DVD": "29 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "WALL·E",
@@ -2196,8 +2141,7 @@
     "DVD": "18 Nov 2008",
     "BoxOffice": "$223,749,872.00",
     "Production": "Walt Disney Pictures",
-    "Website": "http://www.wall-e.com/",
-    "Response": "True"
+    "Website": "http://www.wall-e.com/"
   },
   {
     "Title": "American Beauty",
@@ -2236,8 +2180,7 @@
     "DVD": "02 Jan 2002",
     "BoxOffice": "N/A",
     "Production": "Dream Works",
-    "Website": "http://www.amazon.com/exec/obidos/subst/video/misc/dreamworks/american-beauty/ab-home.html/002-3821383-4244813",
-    "Response": "True"
+    "Website": "http://www.amazon.com/exec/obidos/subst/video/misc/dreamworks/american-beauty/ab-home.html/002-3821383-4244813"
   },
   {
     "Title": "The Godfather",
@@ -2276,8 +2219,7 @@
     "DVD": "09 Oct 2001",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "http://www.thegodfather.com",
-    "Response": "True"
+    "Website": "http://www.thegodfather.com"
   },
   {
     "Title": "Aliens",
@@ -2316,8 +2258,7 @@
     "DVD": "01 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox Film Corporat",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Witness for the Prosecution",
@@ -2352,8 +2293,7 @@
     "DVD": "11 Dec 2001",
     "BoxOffice": "N/A",
     "Production": "MGM",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Once Upon a Time in America",
@@ -2388,8 +2328,7 @@
     "DVD": "10 Jun 2003",
     "BoxOffice": "N/A",
     "Production": "Warner Home Video",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Das Boot",
@@ -2428,8 +2367,7 @@
     "DVD": "10 Dec 1997",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Vertigo",
@@ -2464,8 +2402,7 @@
     "DVD": "31 Mar 1998",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Citizen Kane",
@@ -2500,8 +2437,7 @@
     "DVD": "25 Sep 2001",
     "BoxOffice": "N/A",
     "Production": "RKO Radio Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Star Wars: Episode VI - Return of the Jedi",
@@ -2540,8 +2476,7 @@
     "DVD": "12 Sep 2006",
     "BoxOffice": "N/A",
     "Production": "Twentieth Century Fox",
-    "Website": "http://www.starwars.com/episode-vi/",
-    "Response": "True"
+    "Website": "http://www.starwars.com/episode-vi/"
   },
   {
     "Title": "North by Northwest",
@@ -2576,8 +2511,7 @@
     "DVD": "29 Aug 2000",
     "BoxOffice": "N/A",
     "Production": "Turner Entertainment",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Braveheart",
@@ -2616,8 +2550,7 @@
     "DVD": "29 Aug 2000",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "M",
@@ -2652,8 +2585,7 @@
     "DVD": "20 Oct 1998",
     "BoxOffice": "$17,599.00",
     "Production": "Foremco",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Requiem for a Dream",
@@ -2692,8 +2624,7 @@
     "DVD": "22 May 2001",
     "BoxOffice": "$2,546,851.00",
     "Production": "Artisan Entertainment",
-    "Website": "http://www.requiemforadream.com",
-    "Response": "True"
+    "Website": "http://www.requiemforadream.com"
   },
   {
     "Title": "Reservoir Dogs",
@@ -2732,8 +2663,7 @@
     "DVD": "05 Nov 2002",
     "BoxOffice": "N/A",
     "Production": "Miramax Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Logan",
@@ -2772,8 +2702,7 @@
     "DVD": "N/A",
     "BoxOffice": "$211,775,721.00",
     "Production": "20th Century Fox",
-    "Website": "http://www.foxmovies.com/movies/logan",
-    "Response": "True"
+    "Website": "http://www.foxmovies.com/movies/logan"
   },
   {
     "Title": "A Clockwork Orange",
@@ -2812,8 +2741,7 @@
     "DVD": "29 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Taxi Driver",
@@ -2852,8 +2780,7 @@
     "DVD": "15 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Lawrence of Arabia",
@@ -2892,8 +2819,7 @@
     "DVD": "03 Apr 2001",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Eternal Sunshine of the Spotless Mind",
@@ -2932,8 +2858,7 @@
     "DVD": "28 Sep 2004",
     "BoxOffice": "$34,126,138.00",
     "Production": "Focus Features",
-    "Website": "http://www.eternalsunshine.com/",
-    "Response": "True"
+    "Website": "http://www.eternalsunshine.com/"
   },
   {
     "Title": "Amadeus",
@@ -2972,8 +2897,7 @@
     "DVD": "16 Dec 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://movies.warnerbros.com/amadeus",
-    "Response": "True"
+    "Website": "http://movies.warnerbros.com/amadeus"
   },
   {
     "Title": "Double Indemnity",
@@ -3008,8 +2932,7 @@
     "DVD": "10 Oct 2000",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Full Metal Jacket",
@@ -3048,8 +2971,7 @@
     "DVD": "29 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "To Kill a Mockingbird",
@@ -3084,8 +3006,7 @@
     "DVD": "28 Apr 1998",
     "BoxOffice": "N/A",
     "Production": "Universal International Pictur",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "2001: A Space Odyssey",
@@ -3124,8 +3045,7 @@
     "DVD": "25 Aug 1998",
     "BoxOffice": "$135,620.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Toy Story 3",
@@ -3164,8 +3084,7 @@
     "DVD": "02 Nov 2010",
     "BoxOffice": "$414,984,497.00",
     "Production": "Walt Disney Pictures",
-    "Website": "http://www.disney.com/ToyStory",
-    "Response": "True"
+    "Website": "http://www.disney.com/ToyStory"
   },
   {
     "Title": "The Sting",
@@ -3204,8 +3123,7 @@
     "DVD": "06 Sep 2005",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Dangal",
@@ -3240,8 +3158,7 @@
     "DVD": "N/A",
     "BoxOffice": "$12,382,287.00",
     "Production": "Aamir Khan Productions",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Singin' in the Rain",
@@ -3276,8 +3193,7 @@
     "DVD": "26 Aug 1997",
     "BoxOffice": "N/A",
     "Production": "MGM",
-    "Website": "http://www.FathomEvents.com",
-    "Response": "True"
+    "Website": "http://www.FathomEvents.com"
   },
   {
     "Title": "The Kid",
@@ -3312,8 +3228,7 @@
     "DVD": "02 Mar 2004",
     "BoxOffice": "N/A",
     "Production": "First National Pictures Inc.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Snatch",
@@ -3352,8 +3267,7 @@
     "DVD": "03 Jul 2001",
     "BoxOffice": "$30,093,107.00",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Toy Story",
@@ -3392,8 +3306,7 @@
     "DVD": "20 Mar 2001",
     "BoxOffice": "N/A",
     "Production": "Buena Vista",
-    "Website": "http://www.disney.com/ToyStory",
-    "Response": "True"
+    "Website": "http://www.disney.com/ToyStory"
   },
   {
     "Title": "Inglourious Basterds",
@@ -3432,8 +3345,7 @@
     "DVD": "15 Dec 2009",
     "BoxOffice": "$120,523,073.00",
     "Production": "The Weinstein Company",
-    "Website": "http://www.inglouriousbasterds-movie.com/",
-    "Response": "True"
+    "Website": "http://www.inglouriousbasterds-movie.com/"
   },
   {
     "Title": "3 Idiots",
@@ -3472,8 +3384,7 @@
     "DVD": "26 Apr 2011",
     "BoxOffice": "$6,500,000.00",
     "Production": "Big Pictures",
-    "Website": "http://www.idiotsacademy.zapak.com/idiotsmain.php",
-    "Response": "True"
+    "Website": "http://www.idiotsacademy.zapak.com/idiotsmain.php"
   },
   {
     "Title": "Monty Python and the Holy Grail",
@@ -3512,8 +3423,7 @@
     "DVD": "07 Sep 1999",
     "BoxOffice": "N/A",
     "Production": "Almi Cinema 5",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "L.A. Confidential",
@@ -3552,8 +3462,7 @@
     "DVD": "22 Apr 1998",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Scarface",
@@ -3592,8 +3501,7 @@
     "DVD": "30 Sep 2003",
     "BoxOffice": "$656,161.00",
     "Production": "Universal Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Good Will Hunting",
@@ -3632,8 +3540,7 @@
     "DVD": "08 Dec 1998",
     "BoxOffice": "N/A",
     "Production": "Miramax Films",
-    "Website": "http://www.miramax.com/movie/good-will-hunting/",
-    "Response": "True"
+    "Website": "http://www.miramax.com/movie/good-will-hunting/"
   },
   {
     "Title": "The Apartment",
@@ -3668,8 +3575,7 @@
     "DVD": "19 Jun 2001",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "http://www.mgm.com/title_title.php?title_star=APARTMEN",
-    "Response": "True"
+    "Website": "http://www.mgm.com/title_title.php?title_star=APARTMEN"
   },
   {
     "Title": "Indiana Jones and the Last Crusade",
@@ -3708,8 +3614,7 @@
     "DVD": "21 Oct 2003",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "http://www.indianajones.com/",
-    "Response": "True"
+    "Website": "http://www.indianajones.com/"
   },
   {
     "Title": "Metropolis",
@@ -3748,8 +3653,7 @@
     "DVD": "18 Feb 2003",
     "BoxOffice": "$529,603.00",
     "Production": "Paramount Pictures",
-    "Website": "http://www.kino.com/metropolis",
-    "Response": "True"
+    "Website": "http://www.kino.com/metropolis"
   },
   {
     "Title": "Kaze no yôjinbô",
@@ -3771,8 +3675,7 @@
     "imdbVotes": "51",
     "imdbID": "tt0318901",
     "Type": "series",
-    "totalSeasons": "1",
-    "Response": "True"
+    "totalSeasons": "1"
   },
   {
     "Title": "Up",
@@ -3811,8 +3714,7 @@
     "DVD": "10 Nov 2009",
     "BoxOffice": "$292,979,556.00",
     "Production": "Walt Disney Pictures",
-    "Website": "http://Disney.com/UP",
-    "Response": "True"
+    "Website": "http://Disney.com/UP"
   },
   {
     "Title": "All About Eve",
@@ -3847,8 +3749,7 @@
     "DVD": "05 Oct 1999",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Batman Begins",
@@ -3887,8 +3788,7 @@
     "DVD": "18 Oct 2005",
     "BoxOffice": "$204,100,000.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.batmanbegins.com/",
-    "Response": "True"
+    "Website": "http://www.batmanbegins.com/"
   },
   {
     "Title": "Some Like It Hot",
@@ -3923,8 +3823,7 @@
     "DVD": "22 May 2001",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "http://www.fjtlesoiseaux.fr/cinema.html",
-    "Response": "True"
+    "Website": "http://www.fjtlesoiseaux.fr/cinema.html"
   },
   {
     "Title": "The Treasure of the Sierra Madre",
@@ -3959,8 +3858,7 @@
     "DVD": "30 Sep 2003",
     "BoxOffice": "N/A",
     "Production": "WARNER BROTHERS PICTURES",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Die Hard",
@@ -3999,8 +3897,7 @@
     "DVD": "09 Mar 1999",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.foxhome.com/diehardcollection/index_frames.html",
-    "Response": "True"
+    "Website": "http://www.foxhome.com/diehardcollection/index_frames.html"
   },
   {
     "Title": "Unforgiven",
@@ -4039,8 +3936,7 @@
     "DVD": "26 Mar 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Der Untergang der Pamir",
@@ -4071,8 +3967,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Raging Bull",
@@ -4111,8 +4006,7 @@
     "DVD": "01 Aug 2000",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Heat",
@@ -4151,8 +4045,7 @@
     "DVD": "27 Jul 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Great Escape",
@@ -4183,8 +4076,7 @@
     "DVD": "11 Oct 2005",
     "BoxOffice": "N/A",
     "Production": "VCI",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Chinatown",
@@ -4223,8 +4115,7 @@
     "DVD": "23 Nov 1999",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Ikiru",
@@ -4259,8 +4150,7 @@
     "DVD": "06 Jan 2004",
     "BoxOffice": "N/A",
     "Production": "Cowboy Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Third Man",
@@ -4295,8 +4185,7 @@
     "DVD": "30 Nov 1999",
     "BoxOffice": "N/A",
     "Production": "Rialto Pictures",
-    "Website": "http://www.rialtopictures.com/thirdman",
-    "Response": "True"
+    "Website": "http://www.rialtopictures.com/thirdman"
   },
   {
     "Title": "Ran",
@@ -4335,8 +4224,7 @@
     "DVD": "22 Nov 2005",
     "BoxOffice": "N/A",
     "Production": "Rialto Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "On the Waterfront",
@@ -4375,8 +4263,7 @@
     "DVD": "23 Oct 2001",
     "BoxOffice": "N/A",
     "Production": "Sony Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Gold Rush",
@@ -4411,8 +4298,7 @@
     "DVD": "16 May 2000",
     "BoxOffice": "N/A",
     "Production": "Janus Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Bridge on the River Kwai",
@@ -4447,8 +4333,7 @@
     "DVD": "21 Nov 2000",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Blade Runner",
@@ -4487,8 +4372,7 @@
     "DVD": "27 Aug 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Mr. Smith Goes to Washington",
@@ -4523,8 +4407,7 @@
     "DVD": "21 Aug 2007",
     "BoxOffice": "N/A",
     "Production": "ITVS",
-    "Website": "http://www.mrsmithmovie.com/",
-    "Response": "True"
+    "Website": "http://www.mrsmithmovie.com/"
   },
   {
     "Title": "Judgment at Nuremberg",
@@ -4559,8 +4442,7 @@
     "DVD": "07 Sep 2004",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Incendies",
@@ -4599,8 +4481,7 @@
     "DVD": "13 Sep 2011",
     "BoxOffice": "$6,857,096.00",
     "Production": "Sony Pictures Classics",
-    "Website": "http://www.sonyclassics.com/incendies",
-    "Response": "True"
+    "Website": "http://www.sonyclassics.com/incendies"
   },
   {
     "Title": "Lock, Stock and Two Smoking Barrels",
@@ -4639,8 +4520,7 @@
     "DVD": "31 Aug 1999",
     "BoxOffice": "N/A",
     "Production": "Gramercy Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Casino",
@@ -4679,8 +4559,7 @@
     "DVD": "24 Feb 1998",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "A Beautiful Mind",
@@ -4719,8 +4598,7 @@
     "DVD": "25 Jun 2002",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "http://www.abeautifulmind.com",
-    "Response": "True"
+    "Website": "http://www.abeautifulmind.com"
   },
   {
     "Title": "The Elephant Man",
@@ -4755,8 +4633,7 @@
     "DVD": "11 Dec 2001",
     "BoxOffice": "N/A",
     "Production": "Paramount",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Bakomfilm Smultronstället",
@@ -4787,8 +4664,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Wolf of Wall Street",
@@ -4827,8 +4703,7 @@
     "DVD": "25 Mar 2014",
     "BoxOffice": "$91,330,760.00",
     "Production": "Paramount Studios",
-    "Website": "http://www.thewolfofwallstreet.com/",
-    "Response": "True"
+    "Website": "http://www.thewolfofwallstreet.com/"
   },
   {
     "Title": "The General",
@@ -4863,8 +4738,7 @@
     "DVD": "26 Oct 1999",
     "BoxOffice": "N/A",
     "Production": "United Artists Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Warrior",
@@ -4903,8 +4777,7 @@
     "DVD": "20 Dec 2011",
     "BoxOffice": "$13,600,000.00",
     "Production": "Lionsgate",
-    "Website": "http://www.WarriorFilm.com",
-    "Response": "True"
+    "Website": "http://www.WarriorFilm.com"
   },
   {
     "Title": "V for Vendetta",
@@ -4943,8 +4816,7 @@
     "DVD": "01 Aug 2006",
     "BoxOffice": "$70,500,000.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://vforvendetta.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://vforvendetta.warnerbros.com/"
   },
   {
     "Title": "Hacksaw Ridge",
@@ -4983,8 +4855,7 @@
     "DVD": "21 Feb 2017",
     "BoxOffice": "$67,115,062.00",
     "Production": "Summit Entertainment",
-    "Website": "http://www.hacksawridge.movie/",
-    "Response": "True"
+    "Website": "http://www.hacksawridge.movie/"
   },
   {
     "Title": "Davaro: Son Eskiya",
@@ -5015,8 +4886,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Dial M for Murder",
@@ -5051,8 +4921,7 @@
     "DVD": "07 Sep 2004",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Trainspotting",
@@ -5091,8 +4960,7 @@
     "DVD": "24 Mar 1998",
     "BoxOffice": "N/A",
     "Production": "Miramax Films",
-    "Website": "http://www.miramax.com/movie/trainspotting/",
-    "Response": "True"
+    "Website": "http://www.miramax.com/movie/trainspotting/"
   },
   {
     "Title": "Gran Torino",
@@ -5131,8 +4999,7 @@
     "DVD": "09 Jun 2009",
     "BoxOffice": "$148,055,047.00",
     "Production": "Warner Bros. Pictures/Village Roadshow",
-    "Website": "http://www.thegrantorino.com/",
-    "Response": "True"
+    "Website": "http://www.thegrantorino.com/"
   },
   {
     "Title": "Fargo",
@@ -5171,8 +5038,7 @@
     "DVD": "24 Jun 1997",
     "BoxOffice": "N/A",
     "Production": "MGM",
-    "Website": "http://www.mgm.com/title_title.do?title_star=FARGO",
-    "Response": "True"
+    "Website": "http://www.mgm.com/title_title.do?title_star=FARGO"
   },
   {
     "Title": "Gone with the Wind",
@@ -5207,8 +5073,7 @@
     "DVD": "07 Mar 2000",
     "BoxOffice": "N/A",
     "Production": "Loew's Inc.",
-    "Website": "http://warnervideo.com/gonewiththewind/",
-    "Response": "True"
+    "Website": "http://warnervideo.com/gonewiththewind/"
   },
   {
     "Title": "The Deer Hunter",
@@ -5247,8 +5112,7 @@
     "DVD": "06 Sep 2005",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Big Lebowski",
@@ -5287,8 +5151,7 @@
     "DVD": "27 Oct 1998",
     "BoxOffice": "N/A",
     "Production": "Gramercy Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "A Wednesday",
@@ -5319,8 +5182,7 @@
     "DVD": "02 Dec 2008",
     "BoxOffice": "N/A",
     "Production": "UTV Communications",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Rang De Basanti",
@@ -5351,8 +5213,7 @@
     "DVD": "01 Jan 1998",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "No Country for Old Men",
@@ -5391,8 +5252,7 @@
     "DVD": "07 Apr 2009",
     "BoxOffice": "$74,223,625.00",
     "Production": "Miramax Films",
-    "Website": "http://www.nocountryforoldmen-themovie.com",
-    "Response": "True"
+    "Website": "http://www.nocountryforoldmen-themovie.com"
   },
   {
     "Title": "The Sixth Sense",
@@ -5431,8 +5291,7 @@
     "DVD": "28 Mar 2000",
     "BoxOffice": "N/A",
     "Production": "Hollywood/Buena Vista",
-    "Website": "http://movies.go.com/moviesdynamic/movies/movie?id=505420",
-    "Response": "True"
+    "Website": "http://movies.go.com/moviesdynamic/movies/movie?id=505420"
   },
   {
     "Title": "The Thing",
@@ -5467,8 +5326,7 @@
     "DVD": "28 Aug 2001",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "http://www.theofficialjohncarpenter.com/pages/themovies/th/th.html",
-    "Response": "True"
+    "Website": "http://www.theofficialjohncarpenter.com/pages/themovies/th/th.html"
   },
   {
     "Title": "Cool Hand Luke",
@@ -5503,8 +5361,7 @@
     "DVD": "03 Nov 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Kill Bill: Vol. 1",
@@ -5543,8 +5400,7 @@
     "DVD": "13 Apr 2004",
     "BoxOffice": "N/A",
     "Production": "Miramax Films",
-    "Website": "http://www.kill-bill.com/",
-    "Response": "True"
+    "Website": "http://www.kill-bill.com/"
   },
   {
     "Title": "Rebecca",
@@ -5579,8 +5435,7 @@
     "DVD": "13 Mar 2001",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "How to Train Your Dragon",
@@ -5619,8 +5474,7 @@
     "DVD": "15 Oct 2010",
     "BoxOffice": "$216,900,000.00",
     "Production": "Paramount/DWA",
-    "Website": "http://www.HowToTrainYourDragon.com/",
-    "Response": "True"
+    "Website": "http://www.HowToTrainYourDragon.com/"
   },
   {
     "Title": "Finding Nemo",
@@ -5659,8 +5513,7 @@
     "DVD": "07 May 2013",
     "BoxOffice": "$380,529,370.00",
     "Production": "Walt Disney Pictures",
-    "Website": "http://disney.go.com/disneyvideos/animatedfilms/findingnemo/index2.html",
-    "Response": "True"
+    "Website": "http://disney.go.com/disneyvideos/animatedfilms/findingnemo/index2.html"
   },
   {
     "Title": "There Will Be Blood",
@@ -5699,8 +5552,7 @@
     "DVD": "08 Apr 2008",
     "BoxOffice": "$40,133,435.00",
     "Production": "Paramount Vantage",
-    "Website": "http://www.therewillbeblood.com",
-    "Response": "True"
+    "Website": "http://www.therewillbeblood.com"
   },
   {
     "Title": "Mary and Max",
@@ -5735,8 +5587,7 @@
     "DVD": "15 Jun 2010",
     "BoxOffice": "N/A",
     "Production": "IFC Films",
-    "Website": "http://www.maryandmax.com/",
-    "Response": "True"
+    "Website": "http://www.maryandmax.com/"
   },
   {
     "Title": "Into the Wild",
@@ -5775,8 +5626,7 @@
     "DVD": "04 Mar 2008",
     "BoxOffice": "$18,173,360.00",
     "Production": "Paramount Vantage",
-    "Website": "http://www.intothewild.com/",
-    "Response": "True"
+    "Website": "http://www.intothewild.com/"
   },
   {
     "Title": "Gone Girl",
@@ -5815,8 +5665,7 @@
     "DVD": "13 Jan 2015",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.findamazingamy.com/",
-    "Response": "True"
+    "Website": "http://www.findamazingamy.com/"
   },
   {
     "Title": "Shutter Island",
@@ -5855,8 +5704,7 @@
     "DVD": "08 Jun 2010",
     "BoxOffice": "$125,001,000.00",
     "Production": "Paramount Studios",
-    "Website": "http://www.shutterisland.com/",
-    "Response": "True"
+    "Website": "http://www.shutterisland.com/"
   },
   {
     "Title": "It Happened One Night",
@@ -5891,8 +5739,7 @@
     "DVD": "28 Dec 1999",
     "BoxOffice": "N/A",
     "Production": "Sony Pictures Home Entertainment",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Life of Brian",
@@ -5931,8 +5778,7 @@
     "DVD": "30 Apr 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.pythonline.com",
-    "Response": "True"
+    "Website": "http://www.pythonline.com"
   },
   {
     "Title": "Platoon",
@@ -5967,8 +5813,7 @@
     "DVD": "09 Dec 1997",
     "BoxOffice": "N/A",
     "Production": "Orion Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Network",
@@ -6007,8 +5852,7 @@
     "DVD": "16 May 2000",
     "BoxOffice": "N/A",
     "Production": "MGM/United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Hotel Rwanda",
@@ -6047,8 +5891,7 @@
     "DVD": "12 Apr 2005",
     "BoxOffice": "$23,472,900.00",
     "Production": "MGM",
-    "Website": "http://www.hotelrwanda.com/",
-    "Response": "True"
+    "Website": "http://www.hotelrwanda.com/"
   },
   {
     "Title": "Munna Bhai M.B.B.S.",
@@ -6079,8 +5922,7 @@
     "DVD": "30 Mar 2004",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Stand by Me",
@@ -6115,8 +5957,7 @@
     "DVD": "29 Aug 2000",
     "BoxOffice": "N/A",
     "Production": "MCA Universal Home Video",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "In the Name of the Father",
@@ -6155,8 +5996,7 @@
     "DVD": "07 Jul 1998",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Grand Budapest Hotel",
@@ -6195,8 +6035,7 @@
     "DVD": "17 Jun 2014",
     "BoxOffice": "$56,939,515.00",
     "Production": "Fox Searchlight",
-    "Website": "http://www.grandbudapesthotel.com/",
-    "Response": "True"
+    "Website": "http://www.grandbudapesthotel.com/"
   },
   {
     "Title": "Mad Max: Fury Road",
@@ -6235,8 +6074,7 @@
     "DVD": "01 Sep 2015",
     "BoxOffice": "$129,483,877.00",
     "Production": "Warner Bros.",
-    "Website": "http://www.madmaxmovie.com/",
-    "Response": "True"
+    "Website": "http://www.madmaxmovie.com/"
   },
   {
     "Title": "12 Years a Slave",
@@ -6275,8 +6113,7 @@
     "DVD": "04 Mar 2014",
     "BoxOffice": "$50,628,650.00",
     "Production": "Fox Searchlight",
-    "Website": "http://www.foxsearchlight.com/12yearsaslave/",
-    "Response": "True"
+    "Website": "http://www.foxsearchlight.com/12yearsaslave/"
   },
   {
     "Title": "Butch Cassidy and the Sundance Kid",
@@ -6315,8 +6152,7 @@
     "DVD": "16 May 2000",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Million Dollar Baby",
@@ -6355,8 +6191,7 @@
     "DVD": "12 Jul 2005",
     "BoxOffice": "$100,422,786.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://milliondollarbabymovie.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://milliondollarbabymovie.warnerbros.com/"
   },
   {
     "Title": "Ben-Hur",
@@ -6395,8 +6230,7 @@
     "DVD": "13 Sep 2005",
     "BoxOffice": "N/A",
     "Production": "MGM",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Amores Perros",
@@ -6435,8 +6269,7 @@
     "DVD": "25 Sep 2001",
     "BoxOffice": "$4,856,342.00",
     "Production": "Lions Gate Films",
-    "Website": "http://multimedia.elfoco.com/elfoco/amoresperros/index.html",
-    "Response": "True"
+    "Website": "http://multimedia.elfoco.com/elfoco/amoresperros/index.html"
   },
   {
     "Title": "Persona",
@@ -6471,8 +6304,7 @@
     "DVD": "16 Mar 2004",
     "BoxOffice": "N/A",
     "Production": "Criterion Collection",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Maltese Falcon",
@@ -6507,8 +6339,7 @@
     "DVD": "15 Feb 2000",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Sholay",
@@ -6539,8 +6370,7 @@
     "DVD": "13 Jul 1999",
     "BoxOffice": "N/A",
     "Production": "Adlabs Film",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Jurassic Park",
@@ -6579,8 +6409,7 @@
     "DVD": "10 Oct 2000",
     "BoxOffice": "$45,299,680.00",
     "Production": "Universal City Studios",
-    "Website": "http://www.jurassicpark.com/maingate_flash.html",
-    "Response": "True"
+    "Website": "http://www.jurassicpark.com/maingate_flash.html"
   },
   {
     "Title": "The Princess Bride",
@@ -6619,8 +6448,7 @@
     "DVD": "26 Jan 1999",
     "BoxOffice": "N/A",
     "Production": "20th Century Fox",
-    "Website": "http://www.theprincessbride-themovie.com/",
-    "Response": "True"
+    "Website": "http://www.theprincessbride-themovie.com/"
   },
   {
     "Title": "Hachi: A Dog's Tale",
@@ -6655,8 +6483,7 @@
     "DVD": "09 Mar 2010",
     "BoxOffice": "N/A",
     "Production": "Inferno Entertainment",
-    "Website": "http://www.hachithemovie.com/",
-    "Response": "True"
+    "Website": "http://www.hachithemovie.com/"
   },
   {
     "Title": "Stalker",
@@ -6691,8 +6518,7 @@
     "DVD": "15 Oct 2002",
     "BoxOffice": "N/A",
     "Production": "Zweites Deutsches Fernsehen",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Truman Show",
@@ -6731,8 +6557,7 @@
     "DVD": "26 Jan 1999",
     "BoxOffice": "N/A",
     "Production": "Paramount Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Star Wars: Episode VII - The Force Awakens: The Story Awakens - The Table Read",
@@ -6763,8 +6588,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Before Sunrise",
@@ -6803,8 +6627,7 @@
     "DVD": "30 Nov 1999",
     "BoxOffice": "N/A",
     "Production": "Sony Pictures Home Entertainment",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Grapes of Wrath",
@@ -6839,8 +6662,7 @@
     "DVD": "06 Apr 2004",
     "BoxOffice": "N/A",
     "Production": "Twentieth Century Fox Home Entertainment",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Harry Potter and the Deathly Hallows: Part 2",
@@ -6879,8 +6701,7 @@
     "DVD": "11 Nov 2011",
     "BoxOffice": "$381,000,185.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://www.HarryPotter.com/",
-    "Response": "True"
+    "Website": "http://www.HarryPotter.com/"
   },
   {
     "Title": "Touch of Evil",
@@ -6915,8 +6736,7 @@
     "DVD": "31 Oct 2000",
     "BoxOffice": "N/A",
     "Production": "October Films",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Rocky",
@@ -6955,8 +6775,7 @@
     "DVD": "07 Aug 2006",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "http://rockythemovie.com/",
-    "Response": "True"
+    "Website": "http://rockythemovie.com/"
   },
   {
     "Title": "Annie Hall",
@@ -6991,8 +6810,7 @@
     "DVD": "28 Apr 1998",
     "BoxOffice": "N/A",
     "Production": "United Artists",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Gandhi",
@@ -7027,8 +6845,7 @@
     "DVD": "28 Aug 2001",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Hera Pheri",
@@ -7059,8 +6876,7 @@
     "DVD": "31 Aug 1999",
     "BoxOffice": "N/A",
     "Production": "Chaudhary Enterprises",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Donnie Darko",
@@ -7099,8 +6915,7 @@
     "DVD": "19 Mar 2002",
     "BoxOffice": "N/A",
     "Production": "Newmarket Film Group",
-    "Website": "http://www.donniedarko.com",
-    "Response": "True"
+    "Website": "http://www.donniedarko.com"
   },
   {
     "Title": "Prisoners",
@@ -7139,8 +6954,7 @@
     "DVD": "17 Dec 2013",
     "BoxOffice": "$60,962,878.00",
     "Production": "Warner Bros.",
-    "Website": "http://prisonersmovie.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://prisonersmovie.warnerbros.com/"
   },
   {
     "Title": "Monsters, Inc.",
@@ -7179,8 +6993,7 @@
     "DVD": "19 Feb 2013",
     "BoxOffice": "$34,034,168.00",
     "Production": "Buena Vista Distribution Compa",
-    "Website": "http://disney.go.com/monstersinc/index.html",
-    "Response": "True"
+    "Website": "http://disney.go.com/monstersinc/index.html"
   },
   {
     "Title": "Andaz Apna Apna",
@@ -7211,8 +7024,7 @@
     "DVD": "04 Jun 2009",
     "BoxOffice": "N/A",
     "Production": "N/A",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Catch Me If You Can",
@@ -7251,8 +7063,7 @@
     "DVD": "06 May 2003",
     "BoxOffice": "$164,400,000.00",
     "Production": "DreamWorks SKG",
-    "Website": "http://www.dreamworks.com/catchthem/jump2.html",
-    "Response": "True"
+    "Website": "http://www.dreamworks.com/catchthem/jump2.html"
   },
   {
     "Title": "The Terminator",
@@ -7291,8 +7102,7 @@
     "DVD": "03 Sep 1997",
     "BoxOffice": "N/A",
     "Production": "Orion Pictures Corporation",
-    "Website": "http://www.terminator1.com/",
-    "Response": "True"
+    "Website": "http://www.terminator1.com/"
   },
   {
     "Title": "8½",
@@ -7327,8 +7137,7 @@
     "DVD": "04 Dec 2001",
     "BoxOffice": "N/A",
     "Production": "Cinerez",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Groundhog Day",
@@ -7367,8 +7176,7 @@
     "DVD": "29 Jan 2002",
     "BoxOffice": "N/A",
     "Production": "Columbia Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "The Wizard of Oz",
@@ -7407,8 +7215,7 @@
     "DVD": "19 Oct 1999",
     "BoxOffice": "$3,840,702.00",
     "Production": "Warner Bros. Pictures",
-    "Website": "http://thewizardofoz.warnerbros.com/",
-    "Response": "True"
+    "Website": "http://thewizardofoz.warnerbros.com/"
   },
   {
     "Title": "The Bourne Ultimatum",
@@ -7447,8 +7254,7 @@
     "DVD": "11 Dec 2007",
     "BoxOffice": "$227,400,000.00",
     "Production": "Universal Pictures",
-    "Website": "http://www.thebourneultimatum.com/",
-    "Response": "True"
+    "Website": "http://www.thebourneultimatum.com/"
   },
   {
     "Title": "La Haine",
@@ -7483,8 +7289,7 @@
     "DVD": "17 Apr 2007",
     "BoxOffice": "N/A",
     "Production": "Criterion Collection",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Barry Lyndon",
@@ -7519,8 +7324,7 @@
     "DVD": "29 Jun 1999",
     "BoxOffice": "N/A",
     "Production": "Warner Bros.",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Twelve Monkeys",
@@ -7559,8 +7363,7 @@
     "DVD": "31 Mar 1998",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Jaws",
@@ -7599,8 +7402,7 @@
     "DVD": "11 Jul 2000",
     "BoxOffice": "N/A",
     "Production": "Universal Pictures",
-    "Website": "http://www.jaws25.com/",
-    "Response": "True"
+    "Website": "http://www.jaws25.com/"
   },
   {
     "Title": "Dog Day Afternoon",
@@ -7635,8 +7437,7 @@
     "DVD": "16 Dec 1997",
     "BoxOffice": "N/A",
     "Production": "WARNER BROTHERS PICTURES",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Zootopia",
@@ -7675,8 +7476,7 @@
     "DVD": "07 Jun 2016",
     "BoxOffice": "$341,264,012.00",
     "Production": "Walt Disney Animation Studios",
-    "Website": "http://movies.disney.com/zootopia",
-    "Response": "True"
+    "Website": "http://movies.disney.com/zootopia"
   },
   {
     "Title": "Beauty and the Beast",
@@ -7715,8 +7515,7 @@
     "DVD": "08 Oct 2002",
     "BoxOffice": "$47,611,331.00",
     "Production": "Buena Vista",
-    "Website": "http://www.disney.com/beautyandthebeast",
-    "Response": "True"
+    "Website": "http://www.disney.com/beautyandthebeast"
   },
   {
     "Title": "The Help",
@@ -7755,8 +7554,7 @@
     "DVD": "06 Dec 2011",
     "BoxOffice": "$169,705,587.00",
     "Production": "DreamWorks Studios",
-    "Website": "http://www.thehelpmovie.com",
-    "Response": "True"
+    "Website": "http://www.thehelpmovie.com"
   },
   {
     "Title": "Gangs of Wasseypur",
@@ -7795,8 +7593,7 @@
     "DVD": "N/A",
     "BoxOffice": "N/A",
     "Production": "Studio 18",
-    "Website": "http://www.wasseypurworld.com/",
-    "Response": "True"
+    "Website": "http://www.wasseypurworld.com/"
   },
   {
     "Title": "The Best Years of Our Lives",
@@ -7831,8 +7628,7 @@
     "DVD": "30 Oct 1997",
     "BoxOffice": "N/A",
     "Production": "RKO Radio Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Pirates of the Caribbean: The Curse of the Black Pearl",
@@ -7871,8 +7667,7 @@
     "DVD": "02 Dec 2003",
     "BoxOffice": "$305,343,252.00",
     "Production": "Buena Vista Pictures",
-    "Website": "http://disney.go.com/disneyvideos/liveaction/pirates/main_site/main.html",
-    "Response": "True"
+    "Website": "http://disney.go.com/disneyvideos/liveaction/pirates/main_site/main.html"
   },
   {
     "Title": "What Ever Happened to Baby Jane?",
@@ -7907,8 +7702,7 @@
     "DVD": "25 Sep 1997",
     "BoxOffice": "N/A",
     "Production": "Warner Bros. Pictures",
-    "Website": "N/A",
-    "Response": "True"
+    "Website": "N/A"
   },
   {
     "Title": "Song of the Sea",
@@ -7947,8 +7741,7 @@
     "DVD": "17 Mar 2015",
     "BoxOffice": "N/A",
     "Production": "GKIDS",
-    "Website": "http://www.facebook.com/songoftheseamovie",
-    "Response": "True"
+    "Website": "http://www.facebook.com/songoftheseamovie"
   },
   {
     "Title": "PK",
@@ -7983,7 +7776,6 @@
     "DVD": "N/A",
     "BoxOffice": "$9,027,790.00",
     "Production": "UTV Communications",
-    "Website": "http://pkmovie.in/",
-    "Response": "True"
+    "Website": "http://pkmovie.in/"
   }
 ]
