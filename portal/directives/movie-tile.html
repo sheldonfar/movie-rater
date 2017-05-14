@@ -1,16 +1,22 @@
 <div class="tile" ng-style="{width: tileWidth + 'px', height: tileHeight + 'px'}">
     <img ng-src="{{movie.poster}}"/>
     <div class="movie-text-info animate-text">
-        <h2 class="movie-title animate-text" ng-click="goToMoviePage()" ng-class="{'resizable-font': smallTile}">
+        <h3 class="movie-title animate-text" ng-click="goToMoviePage()" ng-class="{'resizable-font': smallTile}">
             {{movie.title}} ({{movie.year}})
-        </h2>
+        </h3>
         <p class="elo-rating" ng-show="smallTile">Rating: {{movie.rating}}</p>
         <hr/>
         <div ng-hide="smallTile">
             <span class="rated">Rated: {{movie.rated}}</span>
             <span>{{movie.runtime}} - {{movie.genre}} - {{movie.country}}</span>
             <p class="plot">{{movie.plot}}</p>
-            <p>Elo rating: {{movie.rating}}</p>
+                <div class="pull-left">
+                    <p>Elo rating: {{movie.rating}}</p>
+                </div>
+                <div class="pull-right voter">
+                    <span ng-click="onRating({isLiked: true, id: movie.id})"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</span> /
+                    <span ng-click="onRating({isLiked: false, id: movie.id})"><i class="fa fa-thumbs-down" aria-hidden="true"></i> Dislike </span>
+                </div>
             <div class="row ratings-row">
                 <div class="col-md-4">
                     <p><i class="rater-icon fa fa-imdb"></i> {{movie.criticRatings[0].Value}}</p>

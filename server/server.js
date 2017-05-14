@@ -56,6 +56,7 @@ app.get('/recommendations', function (req, res) {
 
 app.post('/newRating', function (req, res) {
     var raccoonFeeling = req.body.like === true ? raccoon.liked : raccoon.disliked;
+    console.info("New Rating: Liked = " + req.body.like + ", Id = " + req.body.movieId);
 
     if (req.body.movieId2) {
         starter.getMovieRating(req.body.movieId, function (Ra) {

@@ -69,9 +69,9 @@
             </div>
         </div>
     </div>
-    <slick init-onload='true' variable-width="true" data="recommendations" infinite="true" slides-to-show="3">
+    <slick init-onload='true' variable-width="true" data="movies" infinite="true" slides-to-show="3">
         <div class="movie-container movie-slider" ng-repeat="movie in movies">
-            <movietile movie="movie" ng-click="onYes(movie.id, true)"></movietile>
+            <movietile movie="movie" on-rating="onRating(isLiked, id)"></movietile>
         </div>
     </slick>
     <div style="padding-left: 15px">
@@ -80,7 +80,7 @@
     </div>
     <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
         <div class="masonry-brick" ng-repeat="movie in recommendations | orderBy: 'rating':true">
-            <movietile movie="movie" ng-click="onYes(movie.id)" tile-width="140" tile-height="140"></movietile>
+            <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>
 </div>

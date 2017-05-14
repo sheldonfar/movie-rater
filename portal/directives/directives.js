@@ -10,7 +10,8 @@ angular
             scope: {
                 movie: '=movie',
                 tileWidth: '=',
-                tileHeight: '='
+                tileHeight: '=',
+                onRating: '&'
             },
             compile: function (elem, attrs) {
                 attrs.tileWidth = attrs.tileWidth || '380';
@@ -19,7 +20,6 @@ angular
 
                 return function(scope, elem, attrs) {
                     scope.goToMoviePage = function () {
-                        console.warn("GOTOOO ", scope.movie);
                         $location.path('/movie/' + scope.movie.id);
                     };
                     scope.smallTile = attrs.smallTile;

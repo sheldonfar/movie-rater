@@ -32,14 +32,14 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
             window.console.log("No connection");
         });
 
-        var sendRating = function (isLiked, movieId) {
+        $scope.onRating = function (isLiked, id) {
             $http({
                 method: 'POST',
                 url: config.serverUrls.newRating,
                 data: {
                     username: $scope.username,
                     like: isLiked,
-                    movieId: movieId
+                    movieId: id
                 }
             }).then(function (resp) {
                 console.warn("RESP ", resp);
@@ -47,9 +47,5 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
             }, function () {
                 window.console.log("No connection");
             });
-        };
-
-        $scope.onYes = function (id) {
-            sendRating(true, id);
         };
     }]);

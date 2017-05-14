@@ -77,7 +77,7 @@ input[type="password"] {
 
 .tile .movie-text-info {
     position: absolute;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 30px 15px 30px;
     height: 100%;
 }
 
@@ -85,9 +85,9 @@ input[type="password"] {
     font-size: 1.2vw;
 }
 
-.tile h2 {
+.tile h3 {
     font-weight: 100;
-    margin: 20px 0 0 0;
+    margin: 5px 0 0 0;
     font-style: italic;
     transform: translateX(200px);
 }
@@ -119,6 +119,7 @@ input[type="password"] {
 }
 
 .rated {
+    transition: color 0.25s;
     border: 1px solid white;
     padding: 1px 5px;
     margin-right: 5px;
@@ -199,6 +200,7 @@ input[type="password"] {
 .ratings-row {
     position: absolute;
     bottom: 0;
+    margin: 0 auto;
 }
 
 .movie-slider {
@@ -291,6 +293,7 @@ input[type="password"] {
 }
 
 .slick-slider {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -401,4 +404,8 @@ input[type="password"] {
 
 .bold {
     font-weight: bold;
+}
+
+.voter {
+    margin-right: 10px;
 }
