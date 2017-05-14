@@ -74,7 +74,7 @@
             <movietile movie="movie" on-rating="onRating(isLiked, id)"></movietile>
         </div>
     </slick>
-    <div style="padding-left: 15px">
+    <div>
         <h3 class="rec-header">Recommendations for <strong>{{username}}</strong></h3>
         <form class="form-inline rec-filter">
             <div class="form-group">
@@ -105,12 +105,19 @@
                 </select>
             </div>
         </form>
-
         <hr>
     </div>
-    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="masonry-rec text-center">
+    <div class="container text-center">
+        <h1 ng-hide="recommendations.length">Nothing Here</h1>
+    </div>
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
         <div class="masonry-brick" ng-repeat="movie in recommendations | filter: recSearch | filter: {imdbRating: imdbRating}:greaterThan | orderBy: 'rating':true">
             <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>
+    <h3 class="rec-header">Similar users to <strong>{{username}}</strong></h3>
+    <hr>
+    <span ng-repeat="user in similarUsers" style="margin-right: 10px">
+        <a ng-href="#!/mosaic/{{user}}">{{user}}</a>
+    </span>
 </div>

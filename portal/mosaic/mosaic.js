@@ -28,7 +28,7 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
             params: {username: $scope.username}
         }).then(function (resp) {
             $scope.recommendations = resp.data.recommendations;
-            console.warn($scope.recommendations);
+            $scope.similarUsers = resp.data.similarUsers;
         }, function () {
             window.console.log("No connection");
         });

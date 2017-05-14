@@ -424,10 +424,6 @@ input[type="password"] {
     float: right;
 }
 
-.masonry-rec {
-    min-height: 600px;
-}
-
 .small-text {
     padding: 30px 5px 0 5px !important;
     position: inherit !important;
