@@ -19,9 +19,6 @@ angular
                 attrs.smallTile = +attrs.tileWidth < 300 || +attrs.tileHeight < 300;
 
                 return function(scope, elem, attrs) {
-                    scope.goToMoviePage = function () {
-                        $location.path('/movie/' + scope.movie.id);
-                    };
                     scope.smallTile = attrs.smallTile;
                 }
             }

@@ -75,11 +75,41 @@
         </div>
     </slick>
     <div style="padding-left: 15px">
-        <h3>Recommendations for <strong>{{username}}</strong></h3>
+        <h3 class="rec-header">Recommendations for <strong>{{username}}</strong></h3>
+        <form class="form-inline rec-filter">
+            <div class="form-group">
+                <select class="form-control" ng-model="recSearch.genre">
+                    <option value="">Genre</option>
+                    <option value="Action">Action</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                    <option value="Thriller">Thriller</option>
+                </select>
+                <input size="4" type="text" placeholder="Year" ng-model="recSearch.year" class="form-control">
+                <input size="15" type="text" placeholder="Language" ng-model="recSearch.language" class="form-control">
+                <input size="15" type="text" placeholder="Director" ng-model="recSearch.director" class="form-control">
+                <input size="15" type="text" placeholder="Actors" ng-model="recSearch.actors" class="form-control">
+                <select ng-model="imdbRating" class="form-control">
+                    <option value="">IMDB Rating</option>
+                    <option value="9.0">> 9.0</option>
+                    <option value="8.0">> 8.0</option>
+                    <option value="7.0">> 7.0</option>
+                    <option value="6.0">> 6.0</option>
+                    <option value="5.0">> 5.0</option>
+                    <option value="4.0">> 4.0</option>
+                </select>
+            </div>
+        </form>
+
         <hr>
     </div>
-    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
-        <div class="masonry-brick" ng-repeat="movie in recommendations | orderBy: 'rating':true">
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="masonry-rec text-center">
+        <div class="masonry-brick" ng-repeat="movie in recommendations | filter: recSearch | filter: {imdbRating: imdbRating}:greaterThan | orderBy: 'rating':true">
             <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>

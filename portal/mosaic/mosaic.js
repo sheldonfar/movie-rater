@@ -28,6 +28,7 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
             params: {username: $scope.username}
         }).then(function (resp) {
             $scope.recommendations = resp.data.recommendations;
+            console.warn($scope.recommendations);
         }, function () {
             window.console.log("No connection");
         });
@@ -42,10 +43,13 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
                     movieId: id
                 }
             }).then(function (resp) {
-                console.warn("RESP ", resp);
                 $scope.recommendations = App.helpers.shuffle(resp.data.recommendations);
             }, function () {
                 window.console.log("No connection");
             });
+        };
+
+        $scope.greaterThan = function (ratingOne, ratingTwo) {
+            return +ratingOne >= +ratingTwo;
         };
     }]);

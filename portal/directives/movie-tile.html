@@ -1,8 +1,8 @@
 <div class="tile" ng-style="{width: tileWidth + 'px', height: tileHeight + 'px'}">
     <img ng-src="{{movie.poster}}"/>
-    <div class="movie-text-info animate-text">
+    <div class="movie-text-info animate-text" ng-class="{'small-text': smallTile}">
         <h3 class="movie-title animate-text" ng-click="goToMoviePage()" ng-class="{'resizable-font': smallTile}">
-            {{movie.title}} ({{movie.year}})
+            <a ng-href="#!/movie/{{movie.id}}">{{movie.title}} ({{movie.year}})</a>
         </h3>
         <p class="elo-rating" ng-show="smallTile">Rating: {{movie.rating}}</p>
         <hr/>
