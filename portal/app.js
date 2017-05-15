@@ -23,9 +23,8 @@ angular.module('myApp', [
     'myApp.movie',
     'myApp.directives'
 ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
-
-    $routeProvider
-        .otherwise({redirectTo: '/'});
+    $routeProvider.otherwise({redirectTo: '/'});
+    $locationProvider.html5Mode(true);
 }]).constant('config', {
     appName: 'Video Recommendation Portal',
     appVersion: '0.0.1',
