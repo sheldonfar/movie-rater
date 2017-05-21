@@ -22,31 +22,25 @@ app.get('/login', function (req, res) {
 
 var sendRating = function (req, res) {
     var username = req.body.username || req.query.username;
-    var send = function (recommendations) {
+    raccoon.stat.recommendFor(username, 15).then(starter.getMovies).then(function (recommendations) {
         raccoon.stat.mostSimilarUsers(username).then(function (simUsers) {
-            raccoon.stat.bestRatedWithScores(9).then(function (bestRated) {
-                res.send({
-                    recommendations: recommendations,
-                    similarUsers: simUsers,
-                    bestScores: bestRated
+            raccoon.stat.leastSimilarUsers(username).then(function (leastSimUsers) {
+                raccoon.stat.mostLiked().then(starter.getMovies).then(function (mostLiked) {
+                    raccoon.stat.mostDisliked().then(starter.getMovies).then(function (mostDisliked) {
+                        raccoon.stat.bestRatedWithScores(9).then(function (bestRated) {
+                            res.send({
+                                recommendations: recommendations,
+                                similarUsers: simUsers,
+                                mostLiked: mostLiked,
+                                mostDisliked: mostDisliked,
+                                leastSimilarUsers: leastSimUsers,
+                                bestScores: bestRated
+                            });
+                        });
+                    });
                 });
             });
         });
-    };
-    raccoon.stat.recommendFor(username, 15).then(function (recs) {
-        var recommendations = [];
-        if (recs.length === 0) {
-            send(recommendations);
-        } else {
-            for (var rec in recs) {
-                starter.getMovieById(+recs[rec]).then(function (movie) {
-                    recommendations.push(movie);
-                    if (recommendations.length === recs.length) {
-                        send(recommendations);
-                    }
-                });
-            }
-        }
     });
 };
 

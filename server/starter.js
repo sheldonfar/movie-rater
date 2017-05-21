@@ -54,7 +54,12 @@ module.exports = exports = (function () {
         });
     };
 
-    var getMovies = function () {
+    var getMovies = function (ids) {
+        if (ids) {
+            return sequelize.Promise.all(ids.map(function(id) {
+                return Movie.findOne({where: {id: +id}});
+            }))
+        }
         return Movie.findAll();
     };
 

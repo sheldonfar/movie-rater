@@ -29,6 +29,9 @@ angular.module('myApp.mosaic', ['ngRoute', 'slick', 'wu.masonry', 'myApp.directi
         }).then(function (resp) {
             $scope.recommendations = resp.data.recommendations;
             $scope.similarUsers = resp.data.similarUsers;
+            $scope.leastSimilarUsers = resp.data.leastSimilarUsers;
+            $scope.mostLiked = resp.data.mostLiked;
+            $scope.mostDisliked = resp.data.mostDisliked;
         }, function () {
             window.console.log("No connection");
         });

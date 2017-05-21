@@ -115,9 +115,42 @@
             <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
         </div>
     </div>
+    <br><br>
     <h3 class="rec-header">Similar users to <strong>{{username}}</strong></h3>
     <hr>
     <span ng-repeat="user in similarUsers" style="margin-right: 10px">
         <a ng-href="/mosaic/{{user}}">{{user}}</a>
     </span>
+    <br><br>
+    <h3 class="rec-header">Least similar users to <strong>{{username}}</strong></h3>
+    <hr>
+    <span ng-repeat="user in leastSimilarUsers" style="margin-right: 10px">
+        <a ng-href="/mosaic/{{user}}">{{user}}</a>
+    </span>
+
+    <div>
+        <h3 class="rec-header">Most <strong>liked</strong> movies</h3>
+        <hr>
+    </div>
+    <div class="container text-center">
+        <h1 ng-hide="mostLiked.length">Nothing Here</h1>
+    </div>
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
+        <div class="masonry-brick" ng-repeat="movie in mostLiked | orderBy: 'rating':true | limitTo: 24">
+            <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="rec-header">Most <strong>disliked</strong> movies</h3>
+        <hr>
+    </div>
+    <div class="container text-center">
+        <h1 ng-hide="mostDisliked.length">Nothing Here</h1>
+    </div>
+    <div masonry masonry-options="{ fitWidth: 'true', gutter: 26 }" class="text-center">
+        <div class="masonry-brick" ng-repeat="movie in mostDisliked | orderBy: 'rating':true | limitTo: 24">
+            <movietile movie="movie" on-rating="onRating(rating, id)" tile-width="140" tile-height="140"></movietile>
+        </div>
+    </div>
 </div>
