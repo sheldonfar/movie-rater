@@ -1,8 +1,5 @@
 var redis = require('redis'),
-    config = require('./config'),
-    bluebird = require('bluebird');
-
-bluebird.promisifyAll(redis.RedisClient.prototype);
+    config = require('./config');
 
 redisClient = redis.createClient(config.redisPort, config.redisUrl);
 if (config.redisAuth) {

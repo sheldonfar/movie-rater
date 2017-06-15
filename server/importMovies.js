@@ -1,7 +1,7 @@
 var client = require('./client'),
     redisClient = require('./redisCli'),
     path = require('path'),
-    jsonfile = require('jsonfile');
+    fs = require('fs');
 
 var file = path.join(__dirname, './sampleContent/movies.json');
 
@@ -46,7 +46,7 @@ sequelize.sync({force: true}).then(function () {
         });
     };
 
-    var movies = jsonfile.readFileSync(file);
+    var movies = JSON.parse(fs.readFileSync(file));
 
     for (var i = 0; i < movies.length; i++) {
         insertMovie(movies[i]);
